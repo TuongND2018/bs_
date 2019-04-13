@@ -1,0 +1,23 @@
+2014-04-15 18:13:38: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 18:13:38: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 18:13:38: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 18:13:38: Change in: D:/xampp/htdocs/giaidoan2/js/custom.js
+2014-04-15 18:13:38: Change in: D:/xampp/htdocs/giaidoan2/js/MFC5150.tmp
+2014-04-15 18:13:38: Change in: D:/xampp/htdocs/giaidoan2/js/custom.js~RF55f5118.TMP
+2014-04-15 18:13:39: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 18:13:39: Left to Right: Copy File: 1 
+2014-04-15 18:13:39: -- Analysis Completed. Time 00:00:02, Speed: 8.047 files/s
+2014-04-15 18:13:39: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-15 18:13:39: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 18:13:40: Copy Over 'D:/xampp/htdocs/giaidoan2/js/custom.js' -> '//192.168.1.105/giaidoan2/js/custom.js'
+2014-04-15 18:13:40: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 18:13:41: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 18:13:41: Items Synced OK: 1, Errors: 0
+2014-04-15 18:13:41: == Sync Completed. Time: 00:00:02, Speed: 100 KB/s
+2014-04-15 18:13:41: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-15 18:13:41: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 18:13:41: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 18:13:42: Change in: //192.168.1.105/giaidoan2/js/custom.js
+2014-04-15 18:13:42: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 18:13:42: -- Analysis Completed. Time 00:00:03, Speed: 5.364 files/s
+2014-04-15 18:13:42: 

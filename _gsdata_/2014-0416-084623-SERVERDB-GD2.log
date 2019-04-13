@@ -1,0 +1,22 @@
+2014-04-16 08:46:23: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-16 08:46:23: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-16 08:46:23: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/tim_kiem_benh_nhan/MFC4E4D.tmp
+2014-04-16 08:46:23: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/tim_kiem_benh_nhan/data_benh_nhan.php~RF87e5185.TMP
+2014-04-16 08:46:23: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/tim_kiem_benh_nhan/data_benh_nhan.php
+2014-04-16 08:46:23: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-16 08:46:23: Left to Right: Copy File: 1 
+2014-04-16 08:46:23: -- Analysis Completed. Time 00:00:00, Speed: Many files/s
+2014-04-16 08:46:23: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-16 08:46:23: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-16 08:46:23: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/hanhchinh/tim_kiem_benh_nhan/data_benh_nhan.php' -> '//192.168.1.105/giaidoan2/modules/hanhchinh/tim_kiem_benh_nhan/data_benh_nhan.php'
+2014-04-16 08:46:24: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-16 08:46:25: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-16 08:46:25: Items Synced OK: 1, Errors: 0
+2014-04-16 08:46:25: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-16 08:46:25: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-16 08:46:25: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-16 08:46:25: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-16 08:46:25: Change in: //192.168.1.105/giaidoan2/modules/hanhchinh/tim_kiem_benh_nhan/data_benh_nhan.php
+2014-04-16 08:46:26: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-16 08:46:26: -- Analysis Completed. Time 00:00:03, Speed: 1.027 files/s
+2014-04-16 08:46:26: 

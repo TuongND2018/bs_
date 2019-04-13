@@ -1,0 +1,614 @@
+<!--author:khatm--
+Form: xếp hàng lâm sàng-->
+<style type="text/css">
+    #rowed3 td,#rowed4 td,#rowed5 td{
+        font-size:11px!important;
+    }
+    input[type=button].custom_button:focus{
+        outline:  none;
+    }
+    :focus {outline:none;}
+    ::-moz-focus-inner {border:0;}
+	#n_top_menu{
+		height:30px;
+		border-radius:4px;
+		border: solid 1px #999999;
+		width:99%;
+		margin-left:3px;
+	}
+.grid1{
+	position:absolute;
+	top:3px;
+	left:230px;
+}
+.chuachot{
+	background:#FF6347;
+}
+</style>
+
+
+<body>
+<div id="dialog-loichotphieu" title="Thông báo" style="display:none">
+  <p><span class="ui-icon ui-icon-alert" style="float:left; margin:0 7px 20px 0;"></span> <span id="noidungchotphieu"> </span></p>
+</div>
+ <div id="dialog-confirm" title="Thông báo" style="display:none">
+  <p>Bạn chắc chắn muốn duyệt phiếu xuất nội bộ đã chọn?</p>
+</div>
+<div id="dialog-loithuoc" title="Thông báo" style="display:none">
+  <p><span id="tenthuoc_ton" style="font-weight:bold"></span> số lượng tồn không đủ để xuất</p>
+</div>
+    <div id="panel_main" >
+        <div class="left_col ui-widget-content ui-layout-center">
+            <div id='n_top_menu' style="margin-top:5px;display:inline-block; padding-top:5px;">
+           	<span style='margin-left:10px'> Từ ngày <input type='text' id='tungay' value='<?php echo date("d/m/".$_SESSION["config_system"]["namUI"])?>'  style=' width:85px; text-align:center'> đến ngày <input type='text' id='denngay' value='<?php echo date("d/m/".$_SESSION["config_system"]["namUI"])?>'  style=' width:85px; text-align:center'> <button id='xem' style='margin-left:5px;0.2em 1em !important; margin-top: -4px;'> Xem</button></span>
+            <button id="xemin" style='margin-left:5px;0.2em 1em !important; margin-top: -4px;'>In Phiếu</button>
+            <span style="margin-left:15px;">Khoa: <input id='khoa' class='khoa'  placeholder="--Chọn khoa--"  ></span>
+             <button id="xemtonghop" style='margin-left:30px;0.2em 1em !important; margin-top: -4px;'>Xem tổng hợp</button>
+       		</div>
+
+      <div id="luoitrai" style="">
+         <div class="ui-layout-north n_tren">
+        
+            <table id="rowed3" ></table>
+            <div id="prowed3" ></div> 
+        </div>
+        <div class="ui-layout-center n_duoi">
+            <table id="rowed4" ></table>
+        </div>
+     </div>
+        </div>
+
+        <div class="ui-layout-east ui-widget-content right_col">
+         <table id="rowed5"></table>
+         <table id="rowed6" ></table>
+   	 </div>
+</body>
+</html>
+
+<script type="text/javascript">
+var loadlandau=0;
+    jQuery(document).ready(function() {
+	$("#tungay").datepicker({
+		changeMonth: true,
+		changeYear: true,
+		dateFormat: $.cookie("ngayJqueryUi")
+	});
+	$("#denngay").datepicker({
+		changeMonth: true,
+		changeYear: true,
+		dateFormat: $.cookie("ngayJqueryUi")
+	});
+	$(function() {
+    $( "#dialog-loichotphieu" ).dialog({
+      resizable: false,
+      height:180,
+	  width:330,
+	  autoOpen:false,
+      modal: true,
+      buttons: {
+        "OK": function() {
+          $( this ).dialog( "close" );
+        }
+      }
+    });
+  });
+	create_combobox_new('#khoa',create_khoa,'bw','','data_khoa',0);
+    $("#panel_main").css("height",$(window).height()+"px");
+    $("#panel_main").fadeIn(1000);
+    $(".left_col").css('height',$("#panel_main").height());
+    $('#luoitrai').css('height',$(".left_col").height());
+    openform_shortcutkey(); //mở bằng phím tắt được thiết lập trong DB
+	create_layout();
+	create_layout2();
+	create_grid();
+	create_grid2();
+	create_grid3();
+	create_grid4();
+	resize_control();
+	$("#xem").button();
+	$("#gbox_rowed6").hide();
+	$("#xemtonghop").click(function(e) {
+		$("#tenkhoahienthi").html($("#khoa").val());
+        $("#gbox_rowed5").hide();
+		$("#gbox_rowed6").show();
+		$("#rowed6").jqGrid('setGridParam',{datatype: 'json',url:"resource.php?module=<?= $modules ?>&view=<?= $view ?>&action=data_danhsach_phieuxuatnoibo_tonghop&tungay="+$("#tungay").val()+"&denngay="+$("#denngay").val()+"&khoa="+$("#khoa_hidden").val()}).trigger('reloadGrid');
+		//alert();
+    });
+	setTimeout(function(){
+		$("#xem").click();	
+	},500)
+	
+	$("#xem").click(function(e) {
+		$("#gbox_rowed6").hide();
+		$("#gbox_rowed5").show();
+        $("#rowed3").jqGrid('setGridParam',{datatype: 'json',url:"resource.php?module=<?= $modules ?>&view=<?= $view ?>&action=data_danhsach_phieuxuatnoibo&tungay="+$("#tungay").val()+"&denngay="+$("#denngay").val()}).trigger('reloadGrid');
+		$("#rowed4").jqGrid('setGridParam',{datatype: 'json',url:"resource.php?module=<?= $modules ?>&view=<?= $view ?>&action=data_danhsach_phieuxuatnoibo_daduyet&tungay="+$("#tungay").val()+"&denngay="+$("#denngay").val()}).trigger('reloadGrid');
+    });
+	$("#xemin").click(function(e) {
+            $.cookie("in_status", "print_preview");
+			dialog_report("Xem trước khi in",90,90,"u78787878975f","resource.php?module=report&view=quanlyduoc&action=phieuxuatthuocnoibo&idphieu="+window.inphieuid+"&type=report&id_form=10",'PhieuLinhThuoc');
+        });
+	
+	$( "#dialog-loithuoc" ).dialog({
+      resizable: false,
+	  autoOpen:false,
+      height:160,
+	  width:350,
+      modal: true,
+      buttons: {
+        "YES": function() {
+          $( this ).dialog( "close" );
+        }
+      }
+    });
+	
+	$( "#dialog-confirm" ).dialog({
+      resizable: false,
+	  autoOpen:false,
+      height:160,
+	  width:350,
+      modal: true,
+      buttons: {
+        "YES": function() {
+          $( this ).dialog( "close" );
+		   $.post('resource.php?module=<?= $modules ?>&view=<?= $view ?>&action=controller&hienmaloi=a&idxuatnoibo='+window.idxuatnoibo).done(function(data){	
+			    data=data.split(';');
+				if(data[2]==1){
+					$("#tenthuoc_ton").html(data[3]);
+					$( "#dialog-loithuoc" ).dialog('open');
+				}else{
+					tooltip_message("Duyệt thành công");
+					window.daduyetnhap=1;
+					$("#xem").click();
+				}
+			});
+        },
+        "NO": function() {
+          $( this ).dialog( "close" );
+        }
+      },open: function () {
+		  $(this).closest('.ui-dialog').find('.ui-dialog-buttonpane button:eq(0)').focus();
+		  $(this).closest('.ui-dialog').find('.ui-dialog-buttonpane button:eq(0)').addClass('n_btn1');
+		   $(this).closest('.ui-dialog').find('.ui-dialog-buttonpane button:eq(1)').addClass('n_btn2');
+		 //var hasFocus = $('.n_btn1').is(':focus');
+			  $('.ui-dialog').keyup(function(e) {
+				  if (e.keyCode === 37){
+					  $('.n_btn1').focus();
+					  $('.n_btn2').focusout();
+				  }
+				  if (e.keyCode === 39){
+					  $('.n_btn2').focus();
+					  $('.n_btn1').focusout();
+				  }
+				})
+		}
+    });
+	
+	phanquyen();
+	$("#xemtonghop").button();
+	$("#xemin").button();
+	$("#rowed3_duyet").addClass('ui-state-disabled');
+	$(window).resize(function() {
+		$("#panel_main").css("height",$(window).height()+"px");
+		$("#panel_main").fadeIn(1000);
+		$(".left_col").css('height',$("#panel_main").height());
+		$('#luoitrai').css('height',$(".left_col").height());
+	})
+})//end ready
+
+
+function create_layout() {
+	$('#panel_main').layout({
+		resizerClass: 'ui-state-default'
+				, east: {
+			resizable: true
+					, size: "40%"
+					, spacing_closed: 27
+					, togglerLength_closed: 85
+					, togglerAlign_closed: "center"
+					, togglerContent_closed: "<div id='menu_toggle'>X<BR>O<BR>N<BR>G</div>"
+					, togglerTip_closed: "Open & Pin Menu"
+					, sliderTip: "Slide Open Menu"
+					, slideTrigger_open: "mouseover"
+					, fxSettings_close: {easing: "easeOutQuint"}
+					, initClosed:    false
+			, onresize_end: function() {
+				resize_control();
+
+			}
+			, onopen_end: function() {
+
+				resize_control();
+				//alert('c');
+			}
+			, onclose_end: function() {
+
+
+			}
+
+		}
+		, center: {
+			resizable: true
+					, size: "60%"
+
+					, fxName: "drop"		// none, slide, drop, scale
+					, fxSpeed_open: 450
+					, fxSpeed_close: 450
+					, fxSettings_open: {easing: "easeInQuint"}
+			, fxSettings_close: {easing: "easeOutQuint"}
+
+			, onresize_end: function() {
+				resize_control();
+			}
+			, onopen_end: function() {
+
+			  //  resize_control();
+
+			}
+			, onclose_end: function() {
+
+
+
+			}
+		}
+	});
+}
+   
+function create_layout2(){
+    $('#luoitrai').layout({
+            resizerClass: 'ui-state-default'
+                    , north: {
+                resizable: true
+                        , size: "50%"
+                        , resizerDblClickToggle: false
+                        , onresize_end: function() {
+                   resize_control();
+                }
+                , onopen_end: function() {
+                        resize_control();
+                }
+                , onclose_end: function() {
+                    resize_control();
+                }
+
+            }
+            , center: {
+                resizable: true
+                        , size: "50%"
+                        , resizerDblClickToggle: false
+                        , onresize_end: function() {
+                    resize_control();
+                }
+                , onopen_end: function() {
+                    resize_control();
+                }
+                , onclose_end: function() {
+                    resize_control();
+                }
+            }
+
+        });
+    }
+	
+function create_grid(){
+	$("#rowed3").jqGrid({
+		url:'',
+		datatype: "json",
+		colNames: ['Số phiếu','Khoa','Người tạo','Ngày tạo','','','',''],
+		colModel: [
+			{name: 'SoPhieu', index: 'SoPhieu', search: true, width: "5%", editable: false, align: 'left', hidden: false},
+			{name: 'Khoa', index: 'Khoa', search: true, width: "15%", editable: false, align: 'left', hidden: false},
+			{name: 'NguoiTao', index: 'NguoiTao', search: true, width: "10%", editable: false, align: 'left', hidden: false},
+			{name: 'NgayTao', index: 'NgayTao', search: true, width: "10%", editable: false, align: 'left', hidden: false,sorttype:'date'},
+			{name: 'NguoiDuyet', index: 'NguoiDuyet', search: true, width: "10%", editable: false, align: 'left', hidden: true},
+			{name: 'NgayDuyet', index: 'NgayDuyet', search: true, width: "10%", editable: false, align: 'left', hidden: true,sorttype:'date'},
+			{name: 'ID_Khoa', index: 'ID_Khoa', search: true, width: "10%", editable: false, align: 'left', hidden: true,sorttype:'date'},
+			{name: 'ChotPhieu', index: 'ChotPhieu', search: true, width: "10%", editable: false, align: 'left', hidden: true,sorttype:'date'},
+		],
+	   loadonce: true,
+		scroll: 1,
+		modal: true,
+		rowNum: 3000,
+		rowList: [30, 50, 70],
+		pager: '#prowed3',
+		//sortname: 'NgayGioKetThuc',
+		height: 100,
+		width: 100,
+		viewrecords: true,
+		ignoreCase: true,
+		shrinkToFit: true,
+		
+		afterShowForm : function (formid) {
+
+		},
+		onSelectRow: function(id) {
+			window.idxuatnoibo=id;
+			window.inphieuid=id;
+			var dataRow = jQuery('#rowed3').jqGrid ('getRowData', id);
+			if(dataRow['NguoiDuyet']==''){
+				$("#rowed3_duyet").removeClass('ui-state-disabled');
+			}else{
+				$("#rowed3_duyet").addClass('ui-state-disabled');
+			}
+			$("#rowed5").jqGrid('setGridParam',{datatype: 'json',url:"resource.php?module=<?= $modules ?>&view=<?= $view ?>&action=data_danhsach_phieuxuatnoibochitiet&id_phieuxuatnoibo="+id}).trigger('reloadGrid');
+		},
+		ondblClickRow: function(rowId, rowIndex, columnIndex) {
+			var dataRow = jQuery('#rowed3').jqGrid ('getRowData', rowId);
+			$.post('resource.php?module=<?= $modules ?>&view=<?= $view ?>&action=checkchot&id_phieuxuatnoibo='+rowId).done(function(data){
+				if(data=='false'){
+					parent.postMessage('open_idluotkham;phieu_xuat_noibo;;;;;&idphieu='+rowId+'&idphongban='+dataRow['ID_Khoa']+'&chotphieu='+dataRow['ChotPhieu'],'*');
+				}else{
+					//tooltip_message("Phiếu này đã chốt nên không được phép sửa");
+					$("#noidungchotphieu").html('Phiếu này đã chốt nên không được phép sửa');
+					$( "#dialog-loichotphieu" ).dialog('open');
+				}
+			});
+		},
+		onselect: function(rowId, rowIndex, columnIndex) {
+			
+		},
+		loadComplete: function(data) {
+			grid_filter_enter("#rowed3");
+			if(window.daduyetnhap==1){
+				$("#rowed3").jqGrid('setSelection',window.idnhapkho)		
+			}else{
+				ids = $('#rowed3').jqGrid('getDataIDs');
+				$("#rowed3").jqGrid('setSelection',ids[0])	
+			}
+			var tmp1 = $("#rowed3").jqGrid('getDataIDs'); 
+			for(var i=0;i < tmp1.length;i++){
+				var rowData = $("#rowed3").getRowData(tmp1[i]);	
+				if(rowData["ChotPhieu"]!=1){
+					jQuery("#rowed3").jqGrid('setCell', tmp1[i], 'SoPhieu', '', {'background': '#FF6347'});
+				}
+			}			 
+		},
+		caption: "Ds phiếu xuất nội bộ (Chưa duyệt) <div class='grid1 '><div class='hinhvuong chuachot'></div><label class='diengiai'>Chưa chốt</label></div>"
+	});
+	$("#rowed3").jqGrid('filterToolbar',{searchOperators : false,searchOnEnter:false,defaultSearch:"bw"});
+	$("#rowed3").jqGrid('navGrid',"#prowed3",{add: false, edit: false, del: false, search: false,closeAfterEdit: true,clearAfterAdd :true,closeOnEscape : true });
+	$("#rowed3").jqGrid('navButtonAdd', '#prowed3', {caption: "Duyệt phiếu", buttonicon: 'ui-icon-check',id:'rowed3_duyet',
+            onClickButton: function() {
+				var dataRow2 = jQuery('#rowed3').jqGrid ('getRowData', window.idxuatnoibo);
+				$.post('resource.php?module=<?= $modules ?>&view=<?= $view ?>&action=checkchot&id_phieuxuatnoibo='+window.idxuatnoibo).done(function(data){
+					if(data=='true'){
+						$( "#dialog-confirm" ).dialog('open');
+					}else{
+						$("#noidungchotphieu").html("Phiếu này "+dataRow2['Khoa']+" chưa chốt nên không thể duyệt");
+						$( "#dialog-loichotphieu" ).dialog('open');
+						//tooltip_message("Phiếu này "+dataRow2['Khoa']+" chưa chốt nên không thể duyệt");
+					}
+				});
+            },
+            title: "Duyệt phiếu",
+            position: "last"
+    }); 
+	$("#rowed3").jqGrid('bindKeys', {});
+}
+
+function create_grid2(){
+	$("#rowed4").jqGrid({
+		url:'',
+		datatype: "json",
+		colNames: ['Số phiếu','Khoa','Người tạo','Ngày tạo','Người duyệt','Ngày duyệt'],
+		colModel: [
+			{name: 'SoPhieu', index: 'SoPhieu', search: true, width: "7%", editable: false, align: 'left', hidden: false},
+			{name: 'Khoa', index: 'Khoa', search: true, width: "20%", editable: false, align: 'left', hidden: false},
+			{name: 'NguoiTao', index: 'NguoiTao', search: true, width: "7%", editable: false, align: 'left', hidden: false},
+			{name: 'NgayTao', index: 'NgayTao', search: true, width: "7%", editable: false, align: 'left', hidden: false,sorttype:'date'},
+			{name: 'NguoiDuyet', index: 'NguoiDuyet', search: true, width: "7%", editable: false, align: 'left', hidden: false},
+			{name: 'NgayDuyet', index: 'NgayDuyet', search: true, width: "7%", editable: false, align: 'left', hidden: false,sorttype:'date'},
+		],
+	   loadonce: true,
+		scroll: 1,
+		modal: true,
+		rowNum: 3000,
+		rowList: [30, 50, 70],
+		pager: '#prowed4',
+		//sortname: 'NgayGioKetThuc',
+		height: 100,
+		width: 100,
+		viewrecords: true,
+		ignoreCase: true,
+		shrinkToFit: true,
+		
+		afterShowForm : function (formid) {
+
+		},
+		onSelectRow: function(id) {
+		window.inphieuid=id;
+			
+		$("#rowed5").jqGrid('setGridParam',{datatype: 'json',url:"resource.php?module=<?= $modules ?>&view=<?= $view ?>&action=data_danhsach_phieuxuatnoibochitiet&id_phieuxuatnoibo="+id}).trigger('reloadGrid');
+		},
+		ondblClickRow: function(rowId, rowIndex, columnIndex) {
+		
+		},
+		onselect: function(rowId, rowIndex, columnIndex) {
+			
+		},
+		loadComplete: function(data) {
+			grid_filter_enter("#rowed4");
+			/*if(window.daduyetnhap==1){
+				$("#rowed4").jqGrid('setSelection',window.idnhapkho)		
+			}else{
+				ids = $('#rowed4').jqGrid('getDataIDs');
+				$("#rowed4").jqGrid('setSelection',ids[0])	
+			}	*/			 
+		},
+		caption: "Ds phiếu xuất nội bộ (Đã duyệt)"
+	});
+	$("#rowed4").jqGrid('filterToolbar',{searchOperators : false,searchOnEnter:false,defaultSearch:"bw"});
+	$("#rowed4").jqGrid('navGrid',"#prowed3",{add: false, edit: false, del: false, search: false,closeAfterEdit: true,clearAfterAdd :true,closeOnEscape : true });
+	
+	$("#rowed3").jqGrid('bindKeys', {});
+	/*$("#tungay").datepicker({
+		changeMonth: true,
+		changeYear: true,
+		dateFormat: $.cookie("ngayJqueryUi")
+	});
+	$("#denngay").datepicker({
+		changeMonth: true,
+		changeYear: true,
+		dateFormat: $.cookie("ngayJqueryUi")
+	});*/
+}
+
+function create_grid3() {
+      mydata=[];
+        $("#rowed5").jqGrid({
+            data: mydata,
+            datatype: "local",
+            colNames: ['Tên gốc','ĐVT', 'Số lượng','TenNhom'],
+            colModel: [
+                {name: 'TenGoc', index: 'TenGoc', search: true, width: "20%", editable: false, align: 'left', hidden: false,classes:'r3_mabenhnhan'},
+				{name: 'DonViTinh', index: 'DonViTinh', search: true, width: "10%", editable: false, align: 'left', hidden: false},
+				{name: 'SoLuong', index: 'SoLuong', search: true, width: "10%", editable: false, align: 'left', hidden: false},
+				{name: 'TenNhom', index: 'TenNhom', search: true, width: "10%", editable: false, align: 'left', hidden: false},
+				
+            ],
+           loadonce: true,
+            scroll: 1,
+            modal: true,
+            rowNum: 3000,
+            rowList: [30, 50, 70],
+            pager: '#prowed5',
+            //sortname: 'NgayGioKetThuc',
+            height: 100,
+            width: 100,
+            viewrecords: true,
+            ignoreCase: true,
+            shrinkToFit: true,
+			grouping: true,
+			groupingView : {
+				 groupField : ['TenNhom'],
+				 groupCollapse : false,
+				  groupColumnShow :false,
+				groupText : ['<b>{0}</b>'],
+		   },
+			afterShowForm : function (formid) {
+
+			},
+            onSelectRow: function(id) {
+				
+            },
+            ondblClickRow: function(rowId, rowIndex, columnIndex) {
+            
+            },
+            onselect: function(rowId, rowIndex, columnIndex) {
+				
+            },
+            loadComplete: function(data) {
+			//ids = $('#rowed3').jqGrid('getDataIDs');				 
+			//$("#rowed3").jqGrid("setSelection",ids[0], true);
+						 
+			},
+            caption: "Chi tiết thuốc xuất nội bộ"
+        });
+		$("#rowed5").jqGrid('filterToolbar',{searchOperators : false,searchOnEnter:false,defaultSearch:"bw"});
+		$("#rowed5").jqGrid('bindKeys', {});
+    }
+function create_grid4() {
+      mydata=[];
+        $("#rowed6").jqGrid({
+            data: mydata,
+            datatype: "local",
+            colNames: ['Tên gốc','ĐVT', 'Số lượng',''],
+            colModel: [
+                {name: 'TenGoc', index: 'TenGoc', search: true, width: "20%", editable: false, align: 'left', hidden: false,classes:'r3_mabenhnhan'},
+				{name: 'DonViTinh', index: 'DonViTinh', search: true, width: "10%", editable: false, align: 'left', hidden: false},
+				{name: 'SoLuong', index: 'SoLuong', search: true, width: "10%", editable: false, align: 'left', hidden: false},
+				{name: 'Ngay', index: 'Ngay', search: true, width: "10%", editable: false, align: 'left', hidden: true},
+				
+            ],
+           loadonce: true,
+            scroll: 1,
+            modal: true,
+            rowNum: 3000,
+            rowList: [30, 50, 70],
+            pager: '#prowed6',
+            //sortname: 'NgayGioKetThuc',
+            height: 100,
+            width: 100,
+            viewrecords: true,
+            ignoreCase: true,
+            shrinkToFit: true,
+			grouping: true,
+			groupingView : {
+				 groupField : ['Ngay'],
+				 groupCollapse : false,
+				  groupColumnShow :false,
+				groupText : ['Ngày <b>{0}</b>'],
+		   },
+			afterShowForm : function (formid) {
+
+			},
+            onSelectRow: function(id) {
+				
+            },
+            ondblClickRow: function(rowId, rowIndex, columnIndex) {
+            
+            },
+            onselect: function(rowId, rowIndex, columnIndex) {
+				
+            },
+            loadComplete: function(data) {
+			//ids = $('#rowed3').jqGrid('getDataIDs');				 
+			//$("#rowed3").jqGrid("setSelection",ids[0], true);
+						 
+			},
+            caption: "Tổng hợp chi tiết <span id='tenkhoahienthi'></span>"
+        });
+		$("#rowed6").jqGrid('filterToolbar',{searchOperators : false,searchOnEnter:false,defaultSearch:"bw"});
+		$("#rowed6").jqGrid('bindKeys', {});
+    }	
+function create_khoa(elem, datalocal) {
+        datalocal = jQuery.parseJSON(datalocal);
+        $(elem).jqGrid({
+            datastr: datalocal,
+            datatype: "jsonstring",
+            colNames: ['Tên khoa'],
+            colModel: [
+                {name: 'tenkhoa', index: 'tenkhoa', hidden: false,width:5},
+				
+            ],
+            hidegrid: false,
+            gridview: true,
+            loadonce: true,
+            scroll: 1,
+            modal: true,
+            rowNum: 100,
+            rowList: [],
+            height: 100,
+            width: 300,
+            viewrecords: true,
+            ignoreCase: true,
+            shrinkToFit: true,
+            cmTemplate: {sortable: false},
+            sortorder: "desc",
+            serializeRowData: function(postdata) {
+            },
+            onSelectRow: function(id) {
+				
+            },
+            ondblClickRow: function(id, rowIndex, columnIndex) {
+            },
+            loadComplete: function(data) {
+            },
+        });
+        $(elem).jqGrid('filterToolbar', {searchOperators: false, searchOnEnter: false, defaultSearch: "bw"});
+        $(elem).jqGrid('bindKeys', {});
+    }
+function resize_control() {
+	$("#rowed3").setGridWidth($(".n_tren").width()-10);
+	$("#rowed3").setGridHeight($(".n_tren").height()-113);
+	$("#rowed4").setGridWidth($(".n_duoi").width()-10);
+	$("#rowed4").setGridHeight($(".n_duoi").height()-130);
+	$("#rowed5").setGridWidth($(".right_col").width()-10);
+	$("#rowed5").setGridHeight($(".right_col").height()-85);
+	$("#rowed6").setGridWidth($(".right_col").width()-10);
+	$("#rowed6").setGridHeight($(".right_col").height()-85);
+}
+</script>
+
+
+

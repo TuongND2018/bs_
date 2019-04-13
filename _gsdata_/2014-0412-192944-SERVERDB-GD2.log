@@ -1,0 +1,27 @@
+2014-04-12 19:29:44: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-12 19:29:44: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 19:29:44: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 19:29:45: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php~RF2a29f29.TMP
+2014-04-12 19:29:45: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php
+2014-04-12 19:29:45: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/MFC9F76.tmp
+2014-04-12 19:29:46: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-12 19:29:46: Left to Right: Copy File: 1 
+2014-04-12 19:29:46: -- Analysis Completed. Time 00:00:02, Speed: 8.003 files/s
+2014-04-12 19:29:46: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-12 19:29:46: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 19:29:55: Locked File D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php Copied from Shadow Copy
+2014-04-12 19:29:55: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php' -> '//192.168.1.105/giaidoan2/modules/lamsang/benh_an/index.php'
+2014-04-12 19:29:55: Source file has changed between Analyze and Sync from 'type=file size=95.623 accu-t=2014-04-12 19:29:42' to 'size=95.622 time=2014-04-12 19:29:46', noted in source file state
+2014-04-12 19:29:56: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 19:29:57: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 19:29:57: Items Synced OK: 1, Errors: 0
+2014-04-12 19:29:57: == Sync Completed. Time: 00:00:11, Speed: 10,3 KB/s
+2014-04-12 19:29:57: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-12 19:29:57: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-12 19:29:57: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 19:29:57: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php~RF2a2aec2.TMP
+2014-04-12 19:29:57: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php
+2014-04-12 19:29:57: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/MFCAF11.tmp
+2014-04-12 19:29:58: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-12 19:29:58: -- Analysis Completed. Time 00:00:12, Speed: 1.333 files/s
+2014-04-12 19:29:58: 

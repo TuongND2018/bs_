@@ -1,0 +1,40 @@
+2014-04-15 23:34:05: -- GD2: ANALYSIS started by On File Change 1st Full Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 23:34:05: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 23:34:07: L: Files: 14.438 (excluded 86). Folders: 1.584 (excluded 2). D: NTFS, Free: 80,3 GB, Total: 132 GB
+2014-04-15 23:34:51: R: Files: 14.437 (excluded 80). Folders: 1.584 (excluded 2). //192.168.1.105/giaidoan2 //192.168.1.105/giaidoan2 NTFS, Free: 86,6 GB, Total: 368 GB
+2014-04-15 23:34:52: Changes: 4, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 23:34:52: Left to Right: Copy File: 3 Delete File: 1 
+2014-04-15 23:34:52: -- Analysis Completed. Time 00:00:47, Speed: 342 files/s
+2014-04-15 23:34:52: == GD2: SYNC started by On File Change 1st Full Analyze on 'SERVERDB'
+2014-04-15 23:34:52: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 23:34:52: Delete Folder '//192.168.1.105/giaidoan2/firefox/may_in_ao/thu_vien_post_script(dung de in pdf)/New folder'
+2014-04-15 23:34:52: Create Folder '//192.168.1.105/giaidoan2/firefox/may_in_ao/thu_vien_post_script(dung de in pdf)/win64'
+2014-04-15 23:34:52: Copy Over 'D:/xampp/htdocs/giaidoan2/file_manager/files/temp/log.txt' -> '//192.168.1.105/giaidoan2/file_manager/files/temp/log.txt'
+2014-04-15 23:34:52: Copy New 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/89045_123' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/89045_123'
+2014-04-15 23:34:53: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 23:34:53: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 23:34:53: Items Synced OK: 4, Errors: 0
+2014-04-15 23:34:53: == Sync Completed. Time: 00:00:01, Speed: 0 bytes/s
+2014-04-15 23:34:53: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-15 23:34:54: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 23:34:54: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 23:34:54: Change in: D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/ECG.php~RF1328358.TMP
+2014-04-15 23:34:54: Change in: D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/ECG.php
+2014-04-15 23:34:54: Change in: D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/MFC8329.tmp
+2014-04-15 23:34:54: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/nhap_ket_qua_xet_nghiem/index.php
+2014-04-15 23:34:54: Change in: //192.168.1.105/giaidoan2/firefox/may_in_ao/thu_vien_post_script(dung de in pdf)/win64
+2014-04-15 23:34:54: Change in: //192.168.1.105/giaidoan2/file_manager/files/temp/log.txt
+2014-04-15 23:34:54: Change in: //192.168.1.105/giaidoan2/firefox/may_in_ao/thu_vien_post_script(dung de in pdf)/New folder
+2014-04-15 23:34:54: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp_images/89045_123
+2014-04-15 23:34:55: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 23:34:55: Left to Right: Copy File: 2 
+2014-04-15 23:34:55: -- Analysis Completed. Time 00:00:03, Speed: 5.370 files/s
+2014-04-15 23:34:55: == GD2: SYNC started by On File Change PostSync Re-Analyze on 'SERVERDB'
+2014-04-15 23:34:55: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 23:34:55: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/canlamsang/nhap_ket_qua_xet_nghiem/index.php' -> '//192.168.1.105/giaidoan2/modules/canlamsang/nhap_ket_qua_xet_nghiem/index.php'
+2014-04-15 23:34:55: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/ECG.php' -> '//192.168.1.105/giaidoan2/modules/report/canlamsang/ECG.php'
+2014-04-15 23:34:56: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 23:34:57: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 23:34:57: Items Synced OK: 2, Errors: 0
+2014-04-15 23:34:57: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-15 23:34:57: 

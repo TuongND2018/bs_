@@ -1,0 +1,23 @@
+2014-04-12 15:04:24: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-12 15:04:24: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 15:04:24: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 15:04:24: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/7d2d9d1f9716c671a80605754c176cd4
+2014-04-12 15:04:24: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/2e11a55d7faf6220f00eda74017fc251
+2014-04-12 15:04:24: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/chinh1.doc
+2014-04-12 15:04:24: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/T D CHIEN-114279-2410-131230-0934.Doc
+2014-04-12 15:04:24: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/1233_1044045_9_2.jpeg
+2014-04-12 15:04:24: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/1233_1044045_9_1.jpeg
+2014-04-12 15:04:25: Changes: 4, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-12 15:04:25: Left to Right: Delete File: 4 
+2014-04-12 15:04:25: -- Analysis Completed. Time 00:00:01, Speed: 16K files/s
+2014-04-12 15:04:26: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-12 15:04:26: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 15:04:26: Delete File '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/1233_1044045_9_1.jpeg'
+2014-04-12 15:04:26: Delete File '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/1233_1044045_9_2.jpeg'
+2014-04-12 15:04:26: Delete File '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/chinh1.doc'
+2014-04-12 15:04:26: Delete File '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/T D CHIEN-114279-2410-131230-0934.Doc'
+2014-04-12 15:04:27: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 15:04:27: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 15:04:27: Items Synced OK: 4, Errors: 0
+2014-04-12 15:04:27: == Sync Completed. Time: 00:00:01, Speed: 0 bytes/s
+2014-04-12 15:04:27: 

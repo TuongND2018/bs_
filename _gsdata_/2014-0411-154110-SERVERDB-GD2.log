@@ -1,0 +1,38 @@
+2014-04-11 15:41:10: -- GD2: ANALYSIS started by On File Change 1st Full Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-11 15:41:10: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 15:41:11: L: Files: 14.337 (excluded 86). Folders: 1.575 (excluded 2). D: NTFS, Free: 85,7 GB, Total: 132 GB
+2014-04-11 15:41:52: R: Files: 14.337 (excluded 80). Folders: 1.575 (excluded 2). //192.168.1.105/giaidoan2 //192.168.1.105/giaidoan2 NTFS, Free: 109 GB, Total: 368 GB
+2014-04-11 15:41:53: Changes: 3, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-11 15:41:53: Left to Right: Copy File: 3 
+2014-04-11 15:41:53: -- Analysis Completed. Time 00:00:43, Speed: 372 files/s
+2014-04-11 15:41:53: == GD2: SYNC started by On File Change 1st Full Analyze on 'SERVERDB'
+2014-04-11 15:41:53: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 15:41:53: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/canlamsang/TCD/index.php' -> '//192.168.1.105/giaidoan2/modules/canlamsang/TCD/index.php'
+2014-04-11 15:41:53: Source file has changed between Analyze and Sync from 'type=file size=24.296 accu-t=2014-04-11 15:40:57' to 'size=24.247 time=2014-04-11 15:41:40', noted in source file state
+2014-04-11 15:41:53: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/danhmuc/danh_muc_phong_ban/index.php' -> '//192.168.1.105/giaidoan2/modules/danhmuc/danh_muc_phong_ban/index.php'
+2014-04-11 15:41:53: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an_noi_tru/index.php' -> '//192.168.1.105/giaidoan2/modules/lamsang/benh_an_noi_tru/index.php'
+2014-04-11 15:41:53: Source file has changed between Analyze and Sync from 'type=file size=1.529 accu-t=2014-04-11 15:41:09' to 'size=1.528 time=2014-04-11 15:41:52', noted in source file state
+2014-04-11 15:41:54: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 15:41:55: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 15:41:55: Items Synced OK: 3, Errors: 0
+2014-04-11 15:41:55: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-11 15:41:55: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-11 15:41:55: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-11 15:41:55: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 15:41:55: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/TCD/index.php
+2014-04-11 15:41:55: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an_noi_tru/index.php~RF5ba0432.TMP
+2014-04-11 15:41:55: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an_noi_tru/index.php
+2014-04-11 15:41:55: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an_noi_tru/MFCD0D6.tmp
+2014-04-11 15:41:55: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an_noi_tru/index.php~RF5b95c40.TMP
+2014-04-11 15:41:55: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an_noi_tru/index.php~RF5b97378.TMP
+2014-04-11 15:41:55: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an_noi_tru/index.php~RF5b9d056.TMP
+2014-04-11 15:41:55: Change in: D:/xampp/htdocs/giaidoan2/modules/danhmuc/danh_muc_phong_ban/index.php
+2014-04-11 15:41:55: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an_noi_tru/MFC5CCE.tmp
+2014-04-11 15:41:55: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an_noi_tru/MFC73E7.tmp
+2014-04-11 15:41:55: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an_noi_tru/MFC4C3.tmp
+2014-04-11 15:41:55: Change in: //192.168.1.105/giaidoan2/modules/canlamsang/TCD/index.php
+2014-04-11 15:41:55: Change in: //192.168.1.105/giaidoan2/modules/lamsang/benh_an_noi_tru/index.php
+2014-04-11 15:41:55: Change in: //192.168.1.105/giaidoan2/modules/danhmuc/danh_muc_phong_ban/index.php
+2014-04-11 15:41:56: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-11 15:41:56: -- Analysis Completed. Time 00:00:03, Speed: 5.333 files/s
+2014-04-11 15:41:56: 

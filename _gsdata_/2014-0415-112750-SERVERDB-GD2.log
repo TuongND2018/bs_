@@ -1,0 +1,97 @@
+2014-04-15 11:27:50: -- GD2: ANALYSIS started by On File Change 1st Full Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 11:27:50: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 11:27:50: 15/04/14 11:27:50: Paused
+2014-04-15 11:27:52: 15/04/14 11:27:52: Resumed
+2014-04-15 11:27:53: L: Files: 14.401 (excluded 86). Folders: 1.576 (excluded 2). D: NTFS, Free: 82,0 GB, Total: 132 GB
+2014-04-15 11:28:34: R: Files: 14.410 (excluded 80). Folders: 1.576 (excluded 2). //192.168.1.105/giaidoan2 //192.168.1.105/giaidoan2 NTFS, Free: 95,0 GB, Total: 368 GB
+2014-04-15 11:28:35: /file_manager/files/temp/log.txt: Warning: Older file to replace Newer file
+2014-04-15 11:28:35: /modules/canlamsang/sieu_am/controller.php: Warning: Older file to replace Newer file
+2014-04-15 11:28:35: /modules/canlamsang/sieu_am/index.php: Warning: Older file to replace Newer file
+2014-04-15 11:28:35: /modules/canlamsang/xray/index.php: Warning: Older file to replace Newer file
+2014-04-15 11:28:35: Changes: 31, Conflicts: 0, CopyTime: 0, CopyState: 0/2, Errors: 0
+2014-04-15 11:28:35: Left to Right: Copy File: 19 Delete File: 12 
+2014-04-15 11:28:35: -- Analysis Completed. Time 00:00:45, Speed: 357 files/s
+2014-04-15 11:28:35: == GD2: SYNC started by On File Change 1st Full Analyze on 'SERVERDB'
+2014-04-15 11:28:35: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 11:28:35: Delete File '//192.168.1.105/giaidoan2/file_manager/php/tmp/249bed25ee103b936392b44b7e372d6f'
+2014-04-15 11:28:35: Delete File '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/132501_1209103_4124_1.jpeg'
+2014-04-15 11:28:35: Delete File '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/153710_1208927_3906_1.bmp'
+2014-04-15 11:28:35: Delete File '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/153710_1208927_3906_2.bmp'
+2014-04-15 11:28:35: Delete File '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/153710_1208927_3906_3.bmp'
+2014-04-15 11:28:35: Delete File '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/153710_1208927_3906_4.png'
+2014-04-15 11:28:35: Delete File '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/153710_1208927_3906_5.jpeg'
+2014-04-15 11:28:35: Delete File '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/153710_1208927_3906_6.jpeg'
+2014-04-15 11:28:35: Delete File '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/89045_1208858_4268_3.png'
+2014-04-15 11:28:35: Delete File '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/89045_1208864_4478_1.png'
+2014-04-15 11:28:35: Delete File '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/97091_1209000_3906_1.jpeg'
+2014-04-15 11:28:35: Delete File '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/97091_1209000_3906_2.bmp'
+2014-04-15 11:28:36: Copy Over 'D:/xampp/htdocs/giaidoan2/file_manager/files/temp/log.txt' -> '//192.168.1.105/giaidoan2/file_manager/files/temp/log.txt'
+2014-04-15 11:28:36: Copy Over 'D:/xampp/htdocs/giaidoan2/file_manager/php/connector.php' -> '//192.168.1.105/giaidoan2/file_manager/php/connector.php'
+2014-04-15 11:28:36: Copy Over 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/140147_1039270_3906_1.jpeg' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/140147_1039270_3906_1.jpeg'
+2014-04-15 11:28:36: Copy Over 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/140147_1039270_3906_2.jpeg' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/140147_1039270_3906_2.jpeg'
+2014-04-15 11:28:36: Copy New 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/140147_1039270_3906_3.png' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/140147_1039270_3906_3.png'
+2014-04-15 11:28:36: Copy New 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/140147_1039270_3906_4.jpeg' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/140147_1039270_3906_4.jpeg'
+2014-04-15 11:28:36: Copy Over 'D:/xampp/htdocs/giaidoan2/header_modules.php' -> '//192.168.1.105/giaidoan2/header_modules.php'
+2014-04-15 11:28:36: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/canlamsang/huyet_ap_24h/index.php' -> '//192.168.1.105/giaidoan2/modules/canlamsang/huyet_ap_24h/index.php'
+2014-04-15 11:28:36: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/canlamsang/sieu_am/controller.php' -> '//192.168.1.105/giaidoan2/modules/canlamsang/sieu_am/controller.php'
+2014-04-15 11:28:36: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/canlamsang/sieu_am/index.php' -> '//192.168.1.105/giaidoan2/modules/canlamsang/sieu_am/index.php'
+2014-04-15 11:28:36: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/canlamsang/xray/index.php' -> '//192.168.1.105/giaidoan2/modules/canlamsang/xray/index.php'
+2014-04-15 11:28:36: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/hanhchinh/tim_kiem_benh_nhan/data_benh_nhan.php' -> '//192.168.1.105/giaidoan2/modules/hanhchinh/tim_kiem_benh_nhan/data_benh_nhan.php'
+2014-04-15 11:28:36: Copy New 'D:/xampp/htdocs/giaidoan2/modules/hanhchinh/tim_kiem_benh_nhan/get_idluotkhamcuoi.php' -> '//192.168.1.105/giaidoan2/modules/hanhchinh/tim_kiem_benh_nhan/get_idluotkhamcuoi.php'
+2014-04-15 11:28:36: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/hanhchinh/tim_kiem_benh_nhan/index.php' -> '//192.168.1.105/giaidoan2/modules/hanhchinh/tim_kiem_benh_nhan/index.php'
+2014-04-15 11:28:36: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/images_control/non_dicom_viewer/index.php' -> '//192.168.1.105/giaidoan2/modules/images_control/non_dicom_viewer/index.php'
+2014-04-15 11:28:36: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/xetnghiem.php' -> '//192.168.1.105/giaidoan2/modules/report/canlamsang/xetnghiem.php'
+2014-04-15 11:28:36: Source file has changed between Analyze and Sync from 'type=file size=22.427 accu-t=2014-04-15 11:27:26' to 'size=22.427 time=2014-04-15 11:28:08', noted in source file state
+2014-04-15 11:28:37: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/xray.php' -> '//192.168.1.105/giaidoan2/modules/report/canlamsang/xray.php'
+2014-04-15 11:28:37: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/vienphi/thungan/data_cacphieuthuchi.php' -> '//192.168.1.105/giaidoan2/modules/vienphi/thungan/data_cacphieuthuchi.php'
+2014-04-15 11:28:37: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/vienphi/thungan/index.php' -> '//192.168.1.105/giaidoan2/modules/vienphi/thungan/index.php'
+2014-04-15 11:28:37: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 11:28:38: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 11:28:38: Items Synced OK: 33, Errors: 0
+2014-04-15 11:28:38: == Sync Completed. Time: 00:00:03, Speed: 788 KB/s
+2014-04-15 11:28:38: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-15 11:28:38: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 11:28:38: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 11:28:38: Change in: D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/xetnghiem.php
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/52b564849d4b577bf36c23d1ca549dd5
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/modules/vienphi/thungan/data_cacphieuthuchi.php
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp_images/153710_1208927_3906_2.bmp
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp_images/97091_1209000_3906_2.bmp
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/a54b7d1b58a6c6089c3afecdec629d72
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/0543aa2a490750c2b971ebeb2ba72a13
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp_images/153710_1208927_3906_1.bmp
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/files/temp/log.txt
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/617773b667f207a86f07e924e03c1f20
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp_images/153710_1208927_3906_6.jpeg
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp_images/89045_1208864_4478_1.png
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/modules/hanhchinh/tim_kiem_benh_nhan/data_benh_nhan.php
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/header_modules.php
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/modules/report/canlamsang/xetnghiem.php
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/modules/images_control/non_dicom_viewer/index.php
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp_images/140147_1039270_3906_2.jpeg
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/3cabd8c5e1eafb398cfc6ca74b61abb7
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/modules/canlamsang/xray/index.php
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/85396bc2169c4c93ca3e0b982bfd89ef
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp_images/140147_1039270_3906_3.png
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/modules/vienphi/thungan/index.php
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp_images/132501_1209103_4124_1.jpeg
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp_images/97091_1209000_3906_1.jpeg
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/01fe0a56b1d91546b0d7de2c6bdbb091
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/249bed25ee103b936392b44b7e372d6f
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/modules/hanhchinh/tim_kiem_benh_nhan/index.php
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/modules/report/canlamsang/xray.php
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp_images/153710_1208927_3906_5.jpeg
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/modules/canlamsang/sieu_am/controller.php
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp_images/140147_1039270_3906_4.jpeg
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/modules/hanhchinh/tim_kiem_benh_nhan/get_idluotkhamcuoi.php
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp_images/140147_1039270_3906_1.jpeg
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/modules/canlamsang/sieu_am/index.php
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp_images/89045_1208858_4268_3.png
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/connector.php
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/modules/canlamsang/huyet_ap_24h/index.php
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp_images/153710_1208927_3906_4.png
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp_images/153710_1208927_3906_3.bmp
+2014-04-15 11:28:39: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/d6efa8d64325aceafb1e8c769775f2de
+2014-04-15 11:28:40: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 11:28:40: -- Analysis Completed. Time 00:00:05, Speed: 3.213 files/s
+2014-04-15 11:28:40: 

@@ -1,0 +1,32 @@
+2014-04-16 11:14:21: -- GD2: ANALYSIS started by On File Change 1st Full Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-16 11:14:21: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-16 11:14:23: L: Files: 2.525 (excluded 31). Folders: 491 (excluded 40). D: NTFS, Free: 80,3 GB, Total: 132 GB
+2014-04-16 11:14:37: R: Files: 2.525 (excluded 27). Folders: 491 (excluded 40). //192.168.1.105/giaidoan2 //192.168.1.105/giaidoan2 NTFS, Free: 96,3 GB, Total: 368 GB
+2014-04-16 11:14:37: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-16 11:14:37: Left to Right: Copy File: 1 
+2014-04-16 11:14:37: -- Analysis Completed. Time 00:00:16, Speed: 192 files/s
+2014-04-16 11:14:37: == GD2: SYNC started by On File Change 1st Full Analyze on 'SERVERDB'
+2014-04-16 11:14:37: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-16 11:14:37: Copy Over 'D:/xampp/htdocs/giaidoan2/css/mausac_canhbao.css' -> '//192.168.1.105/giaidoan2/css/mausac_canhbao.css'
+2014-04-16 11:14:38: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-16 11:14:39: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-16 11:14:39: Items Synced OK: 1, Errors: 0
+2014-04-16 11:14:39: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-16 11:14:39: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-16 11:14:39: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-16 11:14:39: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-16 11:14:39: Change in: D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/huyetap24h.php
+2014-04-16 11:14:39: Change in: D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/huyetap24h.php~RF698a6.TMP
+2014-04-16 11:14:39: Change in: D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/MFC9839.tmp
+2014-04-16 11:14:39: Change in: //192.168.1.105/giaidoan2/css/mausac_canhbao.css
+2014-04-16 11:14:39: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-16 11:14:39: Left to Right: Copy File: 1 
+2014-04-16 11:14:39: -- Analysis Completed. Time 00:00:02, Speed: 1.543 files/s
+2014-04-16 11:14:39: == GD2: SYNC started by On File Change PostSync Re-Analyze on 'SERVERDB'
+2014-04-16 11:14:39: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-16 11:14:40: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/huyetap24h.php' -> '//192.168.1.105/giaidoan2/modules/report/canlamsang/huyetap24h.php'
+2014-04-16 11:14:40: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-16 11:14:41: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-16 11:14:41: Items Synced OK: 1, Errors: 0
+2014-04-16 11:14:41: == Sync Completed. Time: 00:00:02, Speed: 13,9 KB/s
+2014-04-16 11:14:41: 

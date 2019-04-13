@@ -1,0 +1,22 @@
+2014-04-14 16:35:09: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-14 16:35:09: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-14 16:35:09: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 16:35:10: Change in: D:/xampp/htdocs/giaidoan2/modules/vienphi/tam_ung/index.php
+2014-04-14 16:35:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/6781220b1b10827d4c693c583753ff69
+2014-04-14 16:35:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/c890c502ed6b0bd79220a69bcf9dece3
+2014-04-14 16:35:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/071bcd2db2f193bdda9ab264b4b6ee94
+2014-04-14 16:35:10: Change in: D:/xampp/htdocs/giaidoan2/modules/vienphi/tam_ung/index.php~RF10b9de9.TMP
+2014-04-14 16:35:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/18f7b5f9d60abf8d875af28f5bcf82aa
+2014-04-14 16:35:10: Change in: D:/xampp/htdocs/giaidoan2/modules/vienphi/tam_ung/MFC9DDB.tmp
+2014-04-14 16:35:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/683e145d1ceeb96173e3c021883a9035
+2014-04-14 16:35:11: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-14 16:35:11: Left to Right: Copy File: 1 
+2014-04-14 16:35:11: -- Analysis Completed. Time 00:00:02, Speed: 8.023 files/s
+2014-04-14 16:35:11: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-14 16:35:11: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-14 16:35:11: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/vienphi/tam_ung/index.php' -> '//192.168.1.105/giaidoan2/modules/vienphi/tam_ung/index.php'
+2014-04-14 16:35:12: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 16:35:13: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 16:35:13: Items Synced OK: 1, Errors: 0
+2014-04-14 16:35:13: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-14 16:35:13: 

@@ -1,0 +1,16 @@
+2014-04-16 11:09:31: -- GD2: ANALYSIS started by User on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-16 11:09:31: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-16 11:09:33: L: Files: 2.525 (excluded 31). Folders: 491 (excluded 40). D: NTFS, Free: 80,3 GB, Total: 132 GB
+2014-04-16 11:09:47: R: Files: 2.525 (excluded 27). Folders: 491 (excluded 40). //192.168.1.105/giaidoan2 //192.168.1.105/giaidoan2 NTFS, Free: 96,3 GB, Total: 368 GB
+2014-04-16 11:09:48: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-16 11:09:48: Left to Right: Copy File: 1 
+2014-04-16 11:09:48: -- Analysis Completed. Time 00:00:17, Speed: 181 files/s
+2014-04-16 11:09:48: 
+2014-04-16 11:11:30: == GD2: SYNC started by User on 'SERVERDB'
+2014-04-16 11:11:30: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-16 11:11:30: Copy Over 'D:/xampp/htdocs/giaidoan2/css/mausac_canhbao.css' -> '//192.168.1.105/giaidoan2/css/mausac_canhbao.css'
+2014-04-16 11:11:31: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-16 11:11:32: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-16 11:11:32: Items Synced OK: 1, Errors: 0
+2014-04-16 11:11:32: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-16 11:11:32: 

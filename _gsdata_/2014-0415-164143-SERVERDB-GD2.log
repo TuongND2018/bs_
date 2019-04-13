@@ -1,0 +1,26 @@
+2014-04-15 16:41:43: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 16:41:43: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 16:41:43: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 16:41:44: Change in: D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/xetnghiem.php
+2014-04-15 16:41:44: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/ds_xephang_lamsang/index.php
+2014-04-15 16:41:45: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 16:41:45: Left to Right: Copy File: 2 
+2014-04-15 16:41:45: -- Analysis Completed. Time 00:00:02, Speed: 8.047 files/s
+2014-04-15 16:41:45: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-15 16:41:45: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 16:41:45: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/lamsang/ds_xephang_lamsang/index.php' -> '//192.168.1.105/giaidoan2/modules/lamsang/ds_xephang_lamsang/index.php'
+2014-04-15 16:41:45: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/xetnghiem.php' -> '//192.168.1.105/giaidoan2/modules/report/canlamsang/xetnghiem.php'
+2014-04-15 16:41:46: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 16:41:47: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 16:41:47: Items Synced OK: 2, Errors: 0
+2014-04-15 16:41:47: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-15 16:41:47: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-15 16:41:47: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 16:41:47: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 16:41:47: Change in: //192.168.1.105/giaidoan2/modules/lamsang/ds_xephang_lamsang/index.php
+2014-04-15 16:41:47: Change in: //192.168.1.105/giaidoan2/modules/report/canlamsang/xetnghiem.php
+2014-04-15 16:41:47: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/dbd0554fc4d0ab071e5b464b40c20044
+2014-04-15 16:41:47: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/823dd29afeef990bbc22eb55ec6b0e64
+2014-04-15 16:41:48: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 16:41:48: -- Analysis Completed. Time 00:00:03, Speed: 5.364 files/s
+2014-04-15 16:41:48: 

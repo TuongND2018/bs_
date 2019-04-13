@@ -1,0 +1,37 @@
+2014-04-13 15:19:19: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-13 15:19:19: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-13 15:19:19: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 15:19:19: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/MFC79BA.tmp
+2014-04-13 15:19:19: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php~RF267a4e.TMP
+2014-04-13 15:19:19: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php
+2014-04-13 15:19:19: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php~RF26699b.TMP
+2014-04-13 15:19:19: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/MFC68F7.tmp
+2014-04-13 15:19:20: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-13 15:19:20: Left to Right: Copy File: 1 
+2014-04-13 15:19:20: -- Analysis Completed. Time 00:00:01, Speed: 16K files/s
+2014-04-13 15:19:20: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-13 15:19:20: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-13 15:19:21: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php' -> '//192.168.1.105/giaidoan2/modules/lamsang/benh_an/index.php'
+2014-04-13 15:19:22: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 15:19:23: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 15:19:23: Items Synced OK: 1, Errors: 0
+2014-04-13 15:19:23: == Sync Completed. Time: 00:00:03, Speed: 95,6 KB/s
+2014-04-13 15:19:23: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-13 15:19:23: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-13 15:19:23: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-13 15:19:23: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/index.php~RF4cb83a7.TMP
+2014-04-13 15:19:23: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/index.php
+2014-04-13 15:19:23: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/MFC83C1.tmp
+2014-04-13 15:19:23: Change in: D:/xampp/htdocs/giaidoan2/modules/quanlyduoc/Ds_ToaThuoc/controller.php
+2014-04-13 15:19:24: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-13 15:19:24: Left to Right: Copy File: 2 
+2014-04-13 15:19:24: -- Analysis Completed. Time 00:00:04, Speed: 4.002 files/s
+2014-04-13 15:19:24: == GD2: SYNC started by On File Change PostSync Re-Analyze on 'SERVERDB'
+2014-04-13 15:19:24: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-13 15:19:24: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/index.php' -> '//192.168.1.105/giaidoan2/modules/hanhchinh/mien_giam/index.php'
+2014-04-13 15:19:24: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/quanlyduoc/Ds_ToaThuoc/controller.php' -> '//192.168.1.105/giaidoan2/modules/quanlyduoc/Ds_ToaThuoc/controller.php'
+2014-04-13 15:19:25: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 15:19:26: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 15:19:26: Items Synced OK: 2, Errors: 0
+2014-04-13 15:19:26: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-13 15:19:26: 

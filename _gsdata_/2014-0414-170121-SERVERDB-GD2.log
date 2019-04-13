@@ -1,0 +1,39 @@
+2014-04-14 17:01:21: -- GD2: ANALYSIS started by On File Change 1st Full Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-14 17:01:21: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-14 17:01:23: L: Files: 14.384 (excluded 86). Folders: 1.575 (excluded 2). D: NTFS, Free: 83,7 GB, Total: 132 GB
+2014-04-14 17:02:07: R: Files: 14.384 (excluded 80). Folders: 1.575 (excluded 2). //192.168.1.105/giaidoan2 //192.168.1.105/giaidoan2 NTFS, Free: 99,5 GB, Total: 368 GB
+2014-04-14 17:02:08: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-14 17:02:08: Left to Right: Copy File: 2 
+2014-04-14 17:02:08: -- Analysis Completed. Time 00:00:47, Speed: 341 files/s
+2014-04-14 17:02:08: == GD2: SYNC started by On File Change 1st Full Analyze on 'SERVERDB'
+2014-04-14 17:02:08: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-14 17:02:08: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/canlamsang/sieu_am_4d/index.php' -> '//192.168.1.105/giaidoan2/modules/canlamsang/sieu_am_4d/index.php'
+2014-04-14 17:02:08: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/index.php' -> '//192.168.1.105/giaidoan2/modules/hanhchinh/mien_giam/index.php'
+2014-04-14 17:02:08: Source file has changed between Analyze and Sync from 'type=file size=40.485 accu-t=2014-04-14 17:01:10' to 'size=40.492 time=2014-04-14 17:01:32', noted in source file state
+2014-04-14 17:02:09: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 17:02:10: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 17:02:10: Items Synced OK: 2, Errors: 0
+2014-04-14 17:02:10: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-14 17:02:10: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-14 17:02:10: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-14 17:02:10: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-14 17:02:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/4c8beac4eed134b5d857be31f2f08eef
+2014-04-14 17:02:10: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/index.php
+2014-04-14 17:02:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/6781220b1b10827d4c693c583753ff69
+2014-04-14 17:02:10: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/index.php~RFa4f2f97.TMP
+2014-04-14 17:02:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/c890c502ed6b0bd79220a69bcf9dece3
+2014-04-14 17:02:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/071bcd2db2f193bdda9ab264b4b6ee94
+2014-04-14 17:02:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/95427503d1f6e7cf231ede0a61f65098
+2014-04-14 17:02:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/18f7b5f9d60abf8d875af28f5bcf82aa
+2014-04-14 17:02:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/8642b311c188a168192c4b67b6d99935
+2014-04-14 17:02:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/2f46084a73a35968fc39d04ffc2d1714
+2014-04-14 17:02:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/4d5df602e2f1a89a631cf90342f08717
+2014-04-14 17:02:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/484d3eaeafc578bda44851fa1b2a6361
+2014-04-14 17:02:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/d86281ee79eabe730872bd31759509f0
+2014-04-14 17:02:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/902314ed4c42f68e75ba97dfd24c9dfd
+2014-04-14 17:02:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/683e145d1ceeb96173e3c021883a9035
+2014-04-14 17:02:10: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/MFC2F31.tmp
+2014-04-14 17:02:10: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/f1bf54c3a08e7ea5785474465bcd3471
+2014-04-14 17:02:11: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-14 17:02:11: -- Analysis Completed. Time 00:00:03, Speed: 5.349 files/s
+2014-04-14 17:02:11: 

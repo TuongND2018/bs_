@@ -1,0 +1,24 @@
+2014-04-12 17:01:55: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-12 17:01:55: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 17:01:55: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 17:01:55: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/T D CHIEN-114279-2410-131230-0934.Doc
+2014-04-12 17:01:57: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-12 17:01:57: Left to Right: Copy File: 1 
+2014-04-12 17:01:57: -- Analysis Completed. Time 00:00:02, Speed: 8.008 files/s
+2014-04-12 17:01:57: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-12 17:01:57: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 17:01:57: Copy Over 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/T D CHIEN-114279-2410-131230-0934.Doc' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/T D CHIEN-114279-2410-131230-0934.Doc'
+2014-04-12 17:01:57: Source file has changed between Analyze and Sync from 'type=file size=223.744 accu-t=2014-04-12 17:01:53' to 'size=245.760 time=2014-04-12 17:01:57', noted in source file state
+2014-04-12 17:01:58: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 17:01:58: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 17:01:58: Items Synced OK: 1, Errors: 0
+2014-04-12 17:01:58: == Sync Completed. Time: 00:00:01, Speed: 0 bytes/s
+2014-04-12 17:01:58: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-12 17:01:58: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-12 17:01:58: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 17:01:58: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/~WRL3752.tmp
+2014-04-12 17:01:58: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/T D CHIEN-114279-2410-131230-0934.Doc
+2014-04-12 17:01:58: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/~WRD3698.tmp
+2014-04-12 17:02:00: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-12 17:02:00: -- Analysis Completed. Time 00:00:03, Speed: 5.338 files/s
+2014-04-12 17:02:00: 

@@ -1,0 +1,40 @@
+2014-04-15 16:03:14: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 16:03:14: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 16:03:14: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 16:03:15: Change in: D:/xampp/htdocs/giaidoan2/js/custom.js
+2014-04-15 16:03:15: Change in: D:/xampp/htdocs/giaidoan2/js/custom.js~RFbb79b5.TMP
+2014-04-15 16:03:15: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/877a894fa18b93cda6d2e06121f0e154
+2014-04-15 16:03:15: Change in: D:/xampp/htdocs/giaidoan2/js/MFC790B.tmp
+2014-04-15 16:03:16: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 16:03:16: Left to Right: Copy File: 1 
+2014-04-15 16:03:16: -- Analysis Completed. Time 00:00:02, Speed: 8.047 files/s
+2014-04-15 16:03:16: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-15 16:03:16: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 16:03:17: Copy Over 'D:/xampp/htdocs/giaidoan2/js/custom.js' -> '//192.168.1.105/giaidoan2/js/custom.js'
+2014-04-15 16:03:17: Source file has changed between Analyze and Sync from 'type=file size=103.427 accu-t=2014-04-15 16:03:08' to 'size=103.430 time=2014-04-15 16:03:16', noted in source file state
+2014-04-15 16:03:17: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 16:03:18: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 16:03:18: Items Synced OK: 1, Errors: 0
+2014-04-15 16:03:18: == Sync Completed. Time: 00:00:02, Speed: 101 KB/s
+2014-04-15 16:03:18: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-15 16:03:18: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 16:03:18: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 16:03:18: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/fb64e0594d64f8cb566063b6dbee0769
+2014-04-15 16:03:18: Change in: D:/xampp/htdocs/giaidoan2/js/custom.js
+2014-04-15 16:03:18: Change in: D:/xampp/htdocs/giaidoan2/js/MFC965B.tmp
+2014-04-15 16:03:18: Change in: D:/xampp/htdocs/giaidoan2/js/custom.js~RFbb9714.TMP
+2014-04-15 16:03:18: Change in: D:/xampp/htdocs/giaidoan2/file_manager/files/temp/log.txt
+2014-04-15 16:03:18: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/5dc7da38d2652b4fe5e2f6f7bf50c1f2
+2014-04-15 16:03:18: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/877a894fa18b93cda6d2e06121f0e154
+2014-04-15 16:03:19: Change in: //192.168.1.105/giaidoan2/js/custom.js
+2014-04-15 16:03:20: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 16:03:20: Left to Right: Copy File: 1 
+2014-04-15 16:03:20: -- Analysis Completed. Time 00:00:04, Speed: 4.023 files/s
+2014-04-15 16:03:20: == GD2: SYNC started by On File Change PostSync Re-Analyze on 'SERVERDB'
+2014-04-15 16:03:20: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 16:03:20: Copy Over 'D:/xampp/htdocs/giaidoan2/file_manager/files/temp/log.txt' -> '//192.168.1.105/giaidoan2/file_manager/files/temp/log.txt'
+2014-04-15 16:03:21: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 16:03:22: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 16:03:22: Items Synced OK: 1, Errors: 0
+2014-04-15 16:03:22: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-15 16:03:22: 

@@ -1,0 +1,37 @@
+2014-04-12 17:10:26: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-12 17:10:26: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 17:10:26: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 17:10:27: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/index.php~RFae464.TMP
+2014-04-12 17:10:27: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/index.php
+2014-04-12 17:10:27: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/~WRD1444.tmp
+2014-04-12 17:10:27: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/MFCE3EA.tmp
+2014-04-12 17:10:27: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/~WRL1468.tmp
+2014-04-12 17:10:27: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/T D CHIEN-114279-2410-131230-0934.Doc
+2014-04-12 17:10:28: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-12 17:10:28: Left to Right: Copy File: 2 
+2014-04-12 17:10:28: -- Analysis Completed. Time 00:00:02, Speed: 8.008 files/s
+2014-04-12 17:10:28: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-12 17:10:28: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 17:10:28: Copy Over 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/T D CHIEN-114279-2410-131230-0934.Doc' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/T D CHIEN-114279-2410-131230-0934.Doc'
+2014-04-12 17:10:28: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/index.php' -> '//192.168.1.105/giaidoan2/modules/hanhchinh/mien_giam/index.php'
+2014-04-12 17:10:29: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 17:10:30: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 17:10:30: Items Synced OK: 2, Errors: 0
+2014-04-12 17:10:30: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-12 17:10:30: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-12 17:10:30: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-12 17:10:30: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 17:10:30: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/connector.php~RFb317b8f.TMP
+2014-04-12 17:10:30: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/MFC7D14.tmp
+2014-04-12 17:10:30: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/connector.php
+2014-04-12 17:10:31: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-12 17:10:31: Left to Right: Copy File: 1 
+2014-04-12 17:10:31: -- Analysis Completed. Time 00:00:03, Speed: 5.338 files/s
+2014-04-12 17:10:31: == GD2: SYNC started by On File Change PostSync Re-Analyze on 'SERVERDB'
+2014-04-12 17:10:31: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 17:10:32: Copy Over 'D:/xampp/htdocs/giaidoan2/file_manager/php/connector.php' -> '//192.168.1.105/giaidoan2/file_manager/php/connector.php'
+2014-04-12 17:10:32: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 17:10:33: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 17:10:33: Items Synced OK: 1, Errors: 0
+2014-04-12 17:10:33: == Sync Completed. Time: 00:00:02, Speed: 21,6 KB/s
+2014-04-12 17:10:33: 

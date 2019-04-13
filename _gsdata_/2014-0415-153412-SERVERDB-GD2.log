@@ -1,0 +1,45 @@
+2014-04-15 15:34:13: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 15:34:13: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 15:34:13: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 15:34:13: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/202_1044233_9_2.jpeg
+2014-04-15 15:34:13: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/202_1044233_9_1.jpeg
+2014-04-15 15:34:13: Change in: D:/xampp/htdocs/giaidoan2/file_manager/files/temp/log.txt
+2014-04-15 15:34:13: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/20f3f06944f208a8c7d9e4bbabb4a8ee
+2014-04-15 15:34:13: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/cd57d784b455d0519725b7ea4a7e838f
+2014-04-15 15:34:14: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/52b564849d4b577bf36c23d1ca549dd5
+2014-04-15 15:34:14: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/9e3555ef098809b21dd81e68eda93873
+2014-04-15 15:34:14: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/5fa2df6b67d0e4c7653494b479520268
+2014-04-15 15:34:14: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/78a9bc6b6728aeebfda770be1ddaf61e
+2014-04-15 15:34:14: Changes: 3, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 15:34:14: Left to Right: Copy File: 3 
+2014-04-15 15:34:14: -- Analysis Completed. Time 00:00:02, Speed: 8.044 files/s
+2014-04-15 15:34:15: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-15 15:34:15: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 15:34:15: Copy Over 'D:/xampp/htdocs/giaidoan2/file_manager/files/temp/log.txt' -> '//192.168.1.105/giaidoan2/file_manager/files/temp/log.txt'
+2014-04-15 15:34:15: Copy New 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/202_1044233_9_1.jpeg' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/202_1044233_9_1.jpeg'
+2014-04-15 15:34:15: Copy New 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/202_1044233_9_2.jpeg' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/202_1044233_9_2.jpeg'
+2014-04-15 15:34:16: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 15:34:16: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 15:34:17: Items Synced OK: 3, Errors: 0
+2014-04-15 15:34:17: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-15 15:34:17: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-15 15:34:17: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 15:34:17: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 15:34:17: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/20f3f06944f208a8c7d9e4bbabb4a8ee
+2014-04-15 15:34:17: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/cd57d784b455d0519725b7ea4a7e838f
+2014-04-15 15:34:17: Change in: //192.168.1.105/giaidoan2/file_manager/files/temp/log.txt
+2014-04-15 15:34:17: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp_images/202_1044233_9_2.jpeg
+2014-04-15 15:34:17: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp_images/202_1044233_9_1.jpeg
+2014-04-15 15:34:18: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 15:34:18: Left to Right: Copy File: 1 
+2014-04-15 15:34:18: -- Analysis Completed. Time 00:00:03, Speed: 5.363 files/s
+2014-04-15 15:34:18: == GD2: SYNC started by On File Change PostSync Re-Analyze on 'SERVERDB'
+2014-04-15 15:34:18: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 15:34:18: Copy New 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/20f3f06944f208a8c7d9e4bbabb4a8ee' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp/20f3f06944f208a8c7d9e4bbabb4a8ee'
+- ERROR: Error copying file: getting file info before copy: cannot get attrs: The system cannot find the file specified.  (error 2)
+2014-04-15 15:34:19: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 15:34:20: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 15:34:20: Sync finished with 1 errors. Click Errors button to see sync errors
+2014-04-15 15:34:20: Items Synced OK: 0, Errors: 1
+2014-04-15 15:34:20: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-15 15:34:20: 

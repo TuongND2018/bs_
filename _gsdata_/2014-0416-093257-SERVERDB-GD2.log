@@ -1,0 +1,36 @@
+2014-04-16 09:32:57: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-16 09:32:57: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-16 09:32:57: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/ds_xephang_canlamsang/MFC5EF7.tmp
+2014-04-16 09:32:57: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/DienTamDo/MFC4F91.tmp
+2014-04-16 09:32:57: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/DienTamDo/index.php
+2014-04-16 09:32:57: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/ds_xephang_canlamsang/index.php~RF975f13.TMP
+2014-04-16 09:32:57: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/DienTamDo/index.php~RF3564fe5.TMP
+2014-04-16 09:32:57: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/ds_xephang_canlamsang/index.php
+2014-04-16 09:32:58: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-16 09:32:58: Left to Right: Copy File: 2 
+2014-04-16 09:32:58: -- Analysis Completed. Time 00:00:01, Speed: 3.082 files/s
+2014-04-16 09:32:58: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-16 09:32:58: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-16 09:32:58: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/canlamsang/DienTamDo/index.php' -> '//192.168.1.105/giaidoan2/modules/canlamsang/DienTamDo/index.php'
+2014-04-16 09:32:58: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/canlamsang/ds_xephang_canlamsang/index.php' -> '//192.168.1.105/giaidoan2/modules/canlamsang/ds_xephang_canlamsang/index.php'
+2014-04-16 09:32:59: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-16 09:33:00: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-16 09:33:00: Items Synced OK: 2, Errors: 0
+2014-04-16 09:33:00: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-16 09:33:00: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-16 09:33:00: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-16 09:33:00: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-16 09:33:00: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/duyet_ket_qua_xet_nghiem/index.php
+2014-04-16 09:33:00: Change in: //192.168.1.105/giaidoan2/modules/canlamsang/DienTamDo/index.php
+2014-04-16 09:33:00: Change in: //192.168.1.105/giaidoan2/modules/canlamsang/ds_xephang_canlamsang/index.php
+2014-04-16 09:33:00: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-16 09:33:00: Left to Right: Copy File: 1 
+2014-04-16 09:33:00: -- Analysis Completed. Time 00:00:02, Speed: 1.541 files/s
+2014-04-16 09:33:01: == GD2: SYNC started by On File Change PostSync Re-Analyze on 'SERVERDB'
+2014-04-16 09:33:01: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-16 09:33:01: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/canlamsang/duyet_ket_qua_xet_nghiem/index.php' -> '//192.168.1.105/giaidoan2/modules/canlamsang/duyet_ket_qua_xet_nghiem/index.php'
+2014-04-16 09:33:04: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-16 09:33:05: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-16 09:33:05: Items Synced OK: 1, Errors: 0
+2014-04-16 09:33:05: == Sync Completed. Time: 00:00:04, Speed: 0 bytes/s
+2014-04-16 09:33:05: 

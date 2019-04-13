@@ -1,0 +1,25 @@
+2014-04-14 16:55:13: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-14 16:55:13: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-14 16:55:13: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 16:55:14: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/4c8beac4eed134b5d857be31f2f08eef
+2014-04-14 16:55:14: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/95427503d1f6e7cf231ede0a61f65098
+2014-04-14 16:55:14: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/8642b311c188a168192c4b67b6d99935
+2014-04-14 16:55:14: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/4d5df602e2f1a89a631cf90342f08717
+2014-04-14 16:55:14: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/2f46084a73a35968fc39d04ffc2d1714
+2014-04-14 16:55:14: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/484d3eaeafc578bda44851fa1b2a6361
+2014-04-14 16:55:14: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/d86281ee79eabe730872bd31759509f0
+2014-04-14 16:55:14: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/902314ed4c42f68e75ba97dfd24c9dfd
+2014-04-14 16:55:14: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/f1bf54c3a08e7ea5785474465bcd3471
+2014-04-14 16:55:15: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-14 16:55:15: Left to Right: Copy File: 1 
+2014-04-14 16:55:15: -- Analysis Completed. Time 00:00:02, Speed: 8.024 files/s
+2014-04-14 16:55:15: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-14 16:55:15: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-14 16:55:15: Copy New 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/8642b311c188a168192c4b67b6d99935' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp/8642b311c188a168192c4b67b6d99935'
+- ERROR: Error copying file: getting file info before copy: cannot get attrs: The system cannot find the file specified.  (error 2)
+2014-04-14 16:55:16: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 16:55:17: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 16:55:17: Sync finished with 1 errors. Click Errors button to see sync errors
+2014-04-14 16:55:17: Items Synced OK: 0, Errors: 1
+2014-04-14 16:55:17: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-14 16:55:17: 

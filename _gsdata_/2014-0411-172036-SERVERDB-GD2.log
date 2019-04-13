@@ -1,0 +1,21 @@
+2014-04-11 17:20:36: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-11 17:20:36: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 17:20:36: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 17:20:37: Change in: D:/xampp/htdocs/giaidoan2/modules/danhmuc/danh_muc_phong_ban/index.php
+2014-04-11 17:20:38: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-11 17:20:38: Left to Right: Copy File: 1 
+2014-04-11 17:20:38: -- Analysis Completed. Time 00:00:02, Speed: 8.002 files/s
+2014-04-11 17:20:38: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-11 17:20:38: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 17:20:38: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/danhmuc/danh_muc_phong_ban/index.php' -> '//192.168.1.105/giaidoan2/modules/danhmuc/danh_muc_phong_ban/index.php'
+2014-04-11 17:20:39: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 17:20:39: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 17:20:39: Items Synced OK: 1, Errors: 0
+2014-04-11 17:20:39: == Sync Completed. Time: 00:00:01, Speed: 0 bytes/s
+2014-04-11 17:20:39: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-11 17:20:40: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-11 17:20:40: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 17:20:40: Change in: //192.168.1.105/giaidoan2/modules/danhmuc/danh_muc_phong_ban/index.php
+2014-04-11 17:20:41: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-11 17:20:41: -- Analysis Completed. Time 00:00:03, Speed: 5.334 files/s
+2014-04-11 17:20:41: 

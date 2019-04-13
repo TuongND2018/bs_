@@ -1,0 +1,20 @@
+2014-04-11 17:10:16: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-11 17:10:16: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 17:10:16: Change in: D:/xampp/htdocs/giaidoan2/modules/danhmuc/danh_muc_phong_ban/index.php
+2014-04-11 17:10:17: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-11 17:10:17: Left to Right: Copy File: 1 
+2014-04-11 17:10:17: -- Analysis Completed. Time 00:00:01, Speed: 16K files/s
+2014-04-11 17:10:17: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-11 17:10:17: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 17:10:17: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/danhmuc/danh_muc_phong_ban/index.php' -> '//192.168.1.105/giaidoan2/modules/danhmuc/danh_muc_phong_ban/index.php'
+2014-04-11 17:10:18: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 17:10:19: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 17:10:19: Items Synced OK: 1, Errors: 0
+2014-04-11 17:10:19: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-11 17:10:19: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-11 17:10:19: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-11 17:10:19: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 17:10:19: Change in: //192.168.1.105/giaidoan2/modules/danhmuc/danh_muc_phong_ban/index.php
+2014-04-11 17:10:20: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-11 17:10:20: -- Analysis Completed. Time 00:00:03, Speed: 5.334 files/s
+2014-04-11 17:10:20: 

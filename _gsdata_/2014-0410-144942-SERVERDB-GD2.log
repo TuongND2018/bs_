@@ -1,0 +1,25 @@
+2014-04-10 14:49:42: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-10 14:49:42: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-10 14:49:42: Change in: D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/noisoi.php
+2014-04-10 14:49:43: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-10 14:49:43: Left to Right: Copy File: 1 
+2014-04-10 14:49:43: -- Analysis Completed. Time 00:00:01, Speed: 16K files/s
+2014-04-10 14:49:43: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-10 14:49:43: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-10 14:49:44: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/noisoi.php' -> '//192.168.1.105/giaidoan2/modules/report/canlamsang/noisoi.php'
+2014-04-10 14:49:45: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-10 14:49:45: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-10 14:49:45: Items Synced OK: 1, Errors: 0
+2014-04-10 14:49:45: == Sync Completed. Time: 00:00:02, Speed: 8,85 KB/s
+2014-04-10 14:49:45: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-10 14:49:48: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-10 14:49:48: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-10 14:49:48: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/025b59622fd14beb5196dde6e1531349
+2014-04-10 14:49:48: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/9c127093a92bc06e722d7bc8853abfbf
+2014-04-10 14:49:48: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/5399086ab1a2a8ad43107c67a41ba3d9
+2014-04-10 14:49:48: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/336394128f073f0d6a1b77a11d159f9e
+2014-04-10 14:49:48: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/5e7578a886bcaa83001b320c1bc0bddf
+2014-04-10 14:49:48: Change in: //192.168.1.105/giaidoan2/modules/report/canlamsang/noisoi.php
+2014-04-10 14:49:49: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-10 14:49:49: -- Analysis Completed. Time 00:00:06, Speed: 2.666 files/s
+2014-04-10 14:49:49: 

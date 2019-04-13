@@ -1,0 +1,32 @@
+2014-04-12 10:19:33: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-12 10:19:33: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 10:19:33: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 10:19:34: Change in: D:/xampp/htdocs/giaidoan2/modules/quanlyduoc/Ds_ToaThuoc/xuatthuoc_laynuadon.php
+2014-04-12 10:19:35: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-12 10:19:35: Left to Right: Copy File: 1 
+2014-04-12 10:19:35: -- Analysis Completed. Time 00:00:02, Speed: 8.004 files/s
+2014-04-12 10:19:35: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-12 10:19:35: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 10:19:36: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/quanlyduoc/Ds_ToaThuoc/xuatthuoc_laynuadon.php' -> '//192.168.1.105/giaidoan2/modules/quanlyduoc/Ds_ToaThuoc/xuatthuoc_laynuadon.php'
+2014-04-12 10:19:36: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 10:19:37: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 10:19:37: Items Synced OK: 1, Errors: 0
+2014-04-12 10:19:37: == Sync Completed. Time: 00:00:02, Speed: 13,1 KB/s
+2014-04-12 10:19:37: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-12 10:19:38: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-12 10:19:38: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 10:19:38: Change in: D:/xampp/htdocs/giaidoan2/Demo/docx/new/MFC4693.tmp
+2014-04-12 10:19:38: Change in: D:/xampp/htdocs/giaidoan2/Demo/docx/new/demo.php~RF9b945e8.TMP
+2014-04-12 10:19:38: Change in: D:/xampp/htdocs/giaidoan2/Demo/docx/new/demo.php
+2014-04-12 10:19:38: Change in: //192.168.1.105/giaidoan2/modules/quanlyduoc/Ds_ToaThuoc/xuatthuoc_laynuadon.php
+2014-04-12 10:19:39: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-12 10:19:39: Left to Right: Copy File: 1 
+2014-04-12 10:19:39: -- Analysis Completed. Time 00:00:04, Speed: 4.002 files/s
+2014-04-12 10:19:39: == GD2: SYNC started by On File Change PostSync Re-Analyze on 'SERVERDB'
+2014-04-12 10:19:39: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 10:19:39: Copy Over 'D:/xampp/htdocs/giaidoan2/Demo/docx/new/demo.php' -> '//192.168.1.105/giaidoan2/Demo/docx/new/demo.php'
+2014-04-12 10:19:40: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 10:19:40: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 10:19:40: Items Synced OK: 1, Errors: 0
+2014-04-12 10:19:40: == Sync Completed. Time: 00:00:01, Speed: 0 bytes/s
+2014-04-12 10:19:40: 

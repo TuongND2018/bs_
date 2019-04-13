@@ -1,0 +1,23 @@
+2014-04-12 15:40:41: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-12 15:40:41: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 15:40:41: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/~WRL0332.tmp
+2014-04-12 15:40:41: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/chinh1.doc
+2014-04-12 15:40:41: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/~WRD3286.tmp
+2014-04-12 15:40:41: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/1111_1044059_9_2.jpeg
+2014-04-12 15:40:41: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/~$chinh1.doc
+2014-04-12 15:40:41: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/T D CHIEN-114279-2410-131230-0934.Doc
+2014-04-12 15:40:41: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/1111_1044059_9_1.jpeg
+2014-04-12 15:40:44: Changes: 4, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-12 15:40:44: Left to Right: Copy File: 4 
+2014-04-12 15:40:44: -- Analysis Completed. Time 00:00:03, Speed: 5.337 files/s
+2014-04-12 15:40:44: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-12 15:40:44: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 15:40:44: Copy Over 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/1111_1044059_9_1.jpeg' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/1111_1044059_9_1.jpeg'
+2014-04-12 15:40:45: Copy Over 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/1111_1044059_9_2.jpeg' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/1111_1044059_9_2.jpeg'
+2014-04-12 15:40:45: Copy Over 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/chinh1.doc' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/chinh1.doc'
+2014-04-12 15:40:46: Copy Over 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/T D CHIEN-114279-2410-131230-0934.Doc' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/T D CHIEN-114279-2410-131230-0934.Doc'
+2014-04-12 15:40:53: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 15:40:55: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 15:40:57: Items Synced OK: 4, Errors: 0
+2014-04-12 15:40:57: == Sync Completed. Time: 00:00:13, Speed: 237 KB/s
+2014-04-12 15:40:57: 

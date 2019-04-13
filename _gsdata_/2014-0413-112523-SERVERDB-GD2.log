@@ -1,0 +1,23 @@
+2014-04-13 11:25:23: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-13 11:25:23: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-13 11:25:23: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 11:25:24: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/TCD/index.php
+2014-04-13 11:25:24: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/TCD/MFC11A7.tmp
+2014-04-13 11:25:25: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-13 11:25:25: Left to Right: Copy File: 1 
+2014-04-13 11:25:25: -- Analysis Completed. Time 00:00:02, Speed: 8.006 files/s
+2014-04-13 11:25:25: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-13 11:25:25: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-13 11:25:25: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/canlamsang/TCD/index.php' -> '//192.168.1.105/giaidoan2/modules/canlamsang/TCD/index.php'
+2014-04-13 11:25:26: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 11:25:26: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 11:25:27: Items Synced OK: 1, Errors: 0
+2014-04-13 11:25:27: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-13 11:25:27: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-13 11:25:27: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-13 11:25:27: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-13 11:25:27: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/TCD/index.php
+2014-04-13 11:25:27: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/TCD/MFC1DCD.tmp
+2014-04-13 11:25:28: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-13 11:25:28: -- Analysis Completed. Time 00:00:03, Speed: 5.337 files/s
+2014-04-13 11:25:28: 

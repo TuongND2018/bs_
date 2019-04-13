@@ -1,0 +1,56 @@
+function   save(){
+	
+	
+		$("#save").bind("click", function(e) {  
+		if($('#datepicker2').val()!=''){
+			
+					var today = new Date();	 //alert(today);
+					var day2 = $('#datepicker2').val().split('-');
+					var time2= $('#timepicker2').val().split(':');
+					var date2 = new Date(day2[2],day2[1]-1,day2[0],time2[0],time2[1],0); //alert(date2);	
+					//alert(today)
+			}
+		
+		
+		ids = $('#rowed3').jqGrid('getDataIDs');
+		rowData = jQuery('#rowed3').getRowData(ids[0]);
+	
+			if($('#datepicker1').val()==''&&rowData['NgayGioTraKQ']!=''){
+				
+					$('#dialog-form').dialog('open')
+			}else if($('#datepicker2').val()!=''&&date2<today){
+			//alert();
+						$('#dialog-form-2').dialog('open')				
+			}
+			else{  	
+			
+		ID_LuotKham = rowData["ID_LuotKham"]; //alert(ID_LuotKham);
+		date_NgayGioHenTraKQ = $("#datepicker2").val();
+		time_NgayGioHenTraKQ = $("#timepicker2").val(); 
+		date_NgayGioTraKQ =   $("#datepicker1").val();
+		time_NgayGioTraKQ = $("#timepicker1").val(); 
+		//if($('#datepicker1').val()==''&&rowData['NgayGioTraKQ']!='')
+		$.post('resource.php?module=<?= $modules ?>&view=<?= $view ?>&action=data_hentrakq_update&ID_LuotKham='+ID_LuotKham+
+																											'&date_NgayGioHenTraKQ='+date_NgayGioHenTraKQ+
+																											'&time_NgayGioHenTraKQ='+time_NgayGioHenTraKQ+
+																											'&date_NgayGioTraKQ='+date_NgayGioTraKQ+
+																											'&time_NgayGioTraKQ='+time_NgayGioTraKQ
+																											).done(function(data)
+		{ //alert(data);
+			if ($.trim(data) == '') {
+				tooltip_message("<?php get_text1("sua_thanhcong") ?>");
+				$('#rowed3').setGridParam({loadonce: false, datatype: "json"}).trigger('reloadGrid');
+			}
+			else {
+				tooltip_message("<?php get_text1("sua_khongthanhcong") ?>");
+			}
+		});
+		
+		
+		clear1();
+		$("#edit").button("enable");		
+		$('#save,#clear1,#clear2,#get_datetime').button("disable");
+		}
+	});	
+
+}

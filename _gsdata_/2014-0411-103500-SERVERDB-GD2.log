@@ -1,0 +1,37 @@
+2014-04-11 10:35:00: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-11 10:35:00: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 10:35:00: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 10:35:01: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/them_moi_benhnhan/index.php~RF7a0a00.TMP
+2014-04-11 10:35:01: Change in: D:/xampp/htdocs/giaidoan2/modules/report/vienphi/tam_ung.php~RF405df7a.TMP
+2014-04-11 10:35:01: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/them_moi_benhnhan/MFC9A3.tmp
+2014-04-11 10:35:01: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/them_moi_benhnhan/index.php
+2014-04-11 10:35:01: Change in: D:/xampp/htdocs/giaidoan2/print_chidinh.php
+2014-04-11 10:35:01: Change in: D:/xampp/htdocs/giaidoan2/modules/report/vienphi/MFCDEDD.tmp
+2014-04-11 10:35:01: Change in: D:/xampp/htdocs/giaidoan2/modules/report/vienphi/tam_ung.php
+2014-04-11 10:35:01: Change in: D:/xampp/htdocs/giaidoan2/print_chidinh.php~RF4a10b8c.TMP
+2014-04-11 10:35:01: Change in: D:/xampp/htdocs/giaidoan2/MFCB5C.tmp
+2014-04-11 10:35:02: Changes: 3, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-11 10:35:02: Left to Right: Copy File: 3 
+2014-04-11 10:35:02: -- Analysis Completed. Time 00:00:02, Speed: 7.998 files/s
+2014-04-11 10:35:02: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-11 10:35:02: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 10:35:02: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/hanhchinh/them_moi_benhnhan/index.php' -> '//192.168.1.105/giaidoan2/modules/hanhchinh/them_moi_benhnhan/index.php'
+2014-04-11 10:35:02: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/report/vienphi/tam_ung.php' -> '//192.168.1.105/giaidoan2/modules/report/vienphi/tam_ung.php'
+2014-04-11 10:35:02: Source file has changed between Analyze and Sync from 'type=file size=9.658 accu-t=2014-04-11 10:34:57' to 'size=9.634 time=2014-04-11 10:35:01', noted in source file state
+2014-04-11 10:35:03: Copy Over 'D:/xampp/htdocs/giaidoan2/print_chidinh.php' -> '//192.168.1.105/giaidoan2/print_chidinh.php'
+2014-04-11 10:35:03: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 10:35:04: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 10:35:04: Items Synced OK: 3, Errors: 0
+2014-04-11 10:35:04: == Sync Completed. Time: 00:00:02, Speed: 61,4 KB/s
+2014-04-11 10:35:04: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-11 10:35:04: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-11 10:35:04: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 10:35:04: Change in: D:/xampp/htdocs/giaidoan2/modules/report/vienphi/MFCEE59.tmp
+2014-04-11 10:35:04: Change in: D:/xampp/htdocs/giaidoan2/modules/report/vienphi/tam_ung.php
+2014-04-11 10:35:04: Change in: D:/xampp/htdocs/giaidoan2/modules/report/vienphi/tam_ung.php~RF405ef42.TMP
+2014-04-11 10:35:04: Change in: //192.168.1.105/giaidoan2/modules/hanhchinh/them_moi_benhnhan/index.php
+2014-04-11 10:35:04: Change in: //192.168.1.105/giaidoan2/print_chidinh.php
+2014-04-11 10:35:04: Change in: //192.168.1.105/giaidoan2/modules/report/vienphi/tam_ung.php
+2014-04-11 10:35:05: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-11 10:35:05: -- Analysis Completed. Time 00:00:03, Speed: 5.332 files/s
+2014-04-11 10:35:05: 

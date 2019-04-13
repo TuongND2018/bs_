@@ -1,0 +1,20 @@
+2014-04-14 10:29:26: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-14 10:29:26: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-14 10:29:26: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 10:29:27: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/0b8738801cb6d77fee5e5c9016015b9c
+2014-04-14 10:29:27: Change in: D:/xampp/htdocs/giaidoan2/modules/vienphi/thungan/MFCD198.tmp
+2014-04-14 10:29:27: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/bc0e780ef48f76a9ed711bb8c22bf244
+2014-04-14 10:29:27: Change in: D:/xampp/htdocs/giaidoan2/modules/vienphi/thungan/index.php
+2014-04-14 10:29:27: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/68f338ea7922be2dda0f4f4bdc8e4ecb
+2014-04-14 10:29:27: Change in: D:/xampp/htdocs/giaidoan2/modules/vienphi/thungan/index.php~RF88d309.TMP
+2014-04-14 10:29:28: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-14 10:29:28: Left to Right: Copy File: 1 
+2014-04-14 10:29:28: -- Analysis Completed. Time 00:00:02, Speed: 8.018 files/s
+2014-04-14 10:29:28: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-14 10:29:28: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-14 10:29:28: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/vienphi/thungan/index.php' -> '//192.168.1.105/giaidoan2/modules/vienphi/thungan/index.php'
+2014-04-14 10:29:29: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 10:29:30: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 10:29:30: Items Synced OK: 1, Errors: 0
+2014-04-14 10:29:30: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-14 10:29:30: 

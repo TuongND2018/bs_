@@ -1,0 +1,6 @@
+.idea
+.DS_Store
+test.php
+Socket.php
+/Tests/Coverage
+/Tests/FTPConfig.php

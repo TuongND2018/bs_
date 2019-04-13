@@ -1,0 +1,19 @@
+2014-04-14 11:17:21: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-14 11:17:21: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-14 11:17:21: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 11:17:22: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/7438fe53bf6aff51d49d83186e56ebcf
+2014-04-14 11:17:22: Change in: D:/xampp/htdocs/giaidoan2/file_manager/files/temp/log.txt
+2014-04-14 11:17:22: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/cb3435cd870d457945ab1ee533f1a2ae
+2014-04-14 11:17:22: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/e77063e90fdd06c6bd0c8e738ea3043c
+2014-04-14 11:17:22: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/01209f5db4b90fe53eda13d61d880a53
+2014-04-14 11:17:23: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-14 11:17:23: Left to Right: Copy File: 1 
+2014-04-14 11:17:23: -- Analysis Completed. Time 00:00:02, Speed: 8.021 files/s
+2014-04-14 11:17:23: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-14 11:17:23: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-14 11:17:23: Copy Over 'D:/xampp/htdocs/giaidoan2/file_manager/files/temp/log.txt' -> '//192.168.1.105/giaidoan2/file_manager/files/temp/log.txt'
+2014-04-14 11:17:24: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 11:17:25: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 11:17:25: Items Synced OK: 1, Errors: 0
+2014-04-14 11:17:25: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-14 11:17:25: 

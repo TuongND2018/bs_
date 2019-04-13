@@ -1,0 +1,27 @@
+2014-04-13 10:14:11: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-13 10:14:11: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-13 10:14:11: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 10:14:12: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/TCD/index.php
+2014-04-13 10:14:12: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php~RF6c8834.TMP
+2014-04-13 10:14:12: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/index.php
+2014-04-13 10:14:12: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/TCD/MFC7CDC.tmp
+2014-04-13 10:14:12: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php
+2014-04-13 10:14:12: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/MFCC643.tmp
+2014-04-13 10:14:12: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/MFC87C4.tmp
+2014-04-13 10:14:12: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/MFC3424.tmp
+2014-04-13 10:14:12: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/index.php~RF3b3c6bc.TMP
+2014-04-13 10:14:12: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/index.php~RF3b33ab9.TMP
+2014-04-13 10:14:12: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/TCD/MFCC688.tmp
+2014-04-13 10:14:13: Changes: 3, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-13 10:14:13: Left to Right: Copy File: 3 
+2014-04-13 10:14:13: -- Analysis Completed. Time 00:00:03, Speed: 5.336 files/s
+2014-04-13 10:14:13: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-13 10:14:13: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-13 10:14:13: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/canlamsang/TCD/index.php' -> '//192.168.1.105/giaidoan2/modules/canlamsang/TCD/index.php'
+2014-04-13 10:14:14: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/index.php' -> '//192.168.1.105/giaidoan2/modules/hanhchinh/mien_giam/index.php'
+2014-04-13 10:14:14: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php' -> '//192.168.1.105/giaidoan2/modules/lamsang/benh_an/index.php'
+2014-04-13 10:14:23: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 10:14:24: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 10:14:24: Items Synced OK: 3, Errors: 0
+2014-04-13 10:14:24: == Sync Completed. Time: 00:00:11, Speed: 168 KB/s
+2014-04-13 10:14:24: 

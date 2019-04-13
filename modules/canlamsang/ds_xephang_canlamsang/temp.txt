@@ -1,0 +1,43 @@
+ <div id="lichhentra">
+				
+			<table width='1000px'border="1" style=" border: none; margin-left:5px; ">
+			  <tr>
+				<td width="9%" style=" border: none; ">Ngày giờ dự kiến trả KQ:</td>
+				<td width="14%" style=" border: none; ">
+                    <input disabled type="text" id="datepicker" style="width:100px;margin-left:5px"/><input disabled type="text" id="timepicker" style="width:60px;margin-left:5px"/>
+                </td>
+				
+				<td width="8%" style=" border: none; ">Đã trả hồ sơ vào lúc:</td>
+				<td width="20%" style=" border: none; ">
+                	<a id="clear1" class="fm-button ui-state-default ui-corner-all ui-state-disabled" style="margin-top:-1px;margin-left:3px; vertical-align:top;width:12px;height:12px;padding-left: 3px;"  ><span class="ui-icon ui-icon-closethick" style=" margin-top: -3px;"></span></a>
+                	<input disabled type="text" id="datepicker1" style="width:100px;margin-left:5px"/><input disabled type="text" id="timepicker1" style="width:60px;margin-left:5px"/>
+                    <a id="get_datetime" class="fm-button ui-state-default ui-corner-all ui-state-disabled" style="margin-top:-1px;margin-left:3px; vertical-align:top;width:12px;height:12px;padding-left: 3px;"  ><span class="ui-icon ui-icon-clock" style=" margin-top: -3px;"></span></a>
+                </td>
+				<td width="12%" style=" border: none; ">Người trả hồ sơ: <label id="nguoitra"></label></td>
+
+			  </tr>
+			  <tr>
+              	<td style=" border: none; " colspan="2">&nbsp;</td>
+
+				<td style=" border: none; ">Ngày giờ hẹn trả KQ:</td>
+				<td style=" border: none; ">
+                <a id="clear2" class="fm-button ui-state-default ui-corner-all ui-state-disabled " style="margin-top:-1px;margin-left:3px; vertical-align:top;width:12px;height:12px;padding-left: 3px;"  ><span class="ui-icon ui-icon-closethick" style=" margin-top: -3px;"></span></a>
+                <input disabled type="text" id="datepicker2" style="width:100px;margin-left:5px"/><input disabled type="text" id="timepicker2" style="width:60px;margin-left:5px"/></td>
+				<td style=" border: none; ">Người hẹn: <label id="nguoihen"></label></td>
+
+			  </tr>
+			</table>
+            </div>
+           
+     	 <div>
+         	<a  id="save" class="fm-button ui-state-default ui-corner-all ui-state-disabled" style="margin-top: 5px; vertical-align:top;width:100px;height:15px;"  >Lưu [Ctrl+S]<span class="ui-icon ui-icon-disk"style=" margin-top: -15px; "></span></a>
+            <a  id="edit" class="fm-button ui-state-default ui-corner-all " style="margin-top: 5px; vertical-align:top;width:90px;height:15px;"  >Chỉnh sửa<span class="ui-icon ui-icon-pencil"style=" margin-top: -15px; "></span></a>
+            <a  class="fm-button ui-state-default ui-corner-all " style="margin-top: 5px; vertical-align:top;width:90px;height:15px;"  >Lịch bác sỹ<span class="ui-icon ui-icon-calculator"style=" margin-top: -15px; "></span></a>
+		</div>
+          <!--<table id="rowed3" ></table> -->   
+          </div>
+         </div>
+
+</div>
+          
+  

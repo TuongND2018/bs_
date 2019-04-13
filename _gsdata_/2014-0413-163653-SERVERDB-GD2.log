@@ -1,0 +1,41 @@
+2014-04-13 16:36:53: -- GD2: ANALYSIS started by On File Change 1st Full Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-13 16:36:53: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-13 16:36:55: L: Files: 14.351 (excluded 86). Folders: 1.575 (excluded 2). D: NTFS, Free: 86,6 GB, Total: 132 GB
+2014-04-13 16:37:41: R: Files: 14.351 (excluded 80). Folders: 1.575 (excluded 2). //192.168.1.105/giaidoan2 //192.168.1.105/giaidoan2 NTFS, Free: 101 GB, Total: 368 GB
+2014-04-13 16:37:42: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-13 16:37:42: Left to Right: Copy File: 1 
+2014-04-13 16:37:42: -- Analysis Completed. Time 00:00:49, Speed: 326 files/s
+2014-04-13 16:37:42: == GD2: SYNC started by On File Change 1st Full Analyze on 'SERVERDB'
+2014-04-13 16:37:42: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-13 16:37:42: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/lamsang/chidinhkham/index.php' -> '//192.168.1.105/giaidoan2/modules/lamsang/chidinhkham/index.php'
+2014-04-13 16:37:42: Source file has changed between Analyze and Sync from 'type=file size=75.935 accu-t=2014-04-13 16:36:44' to 'size=75.888 time=2014-04-13 16:37:26', noted in source file state
+2014-04-13 16:37:43: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 16:37:44: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 16:37:44: Items Synced OK: 1, Errors: 0
+2014-04-13 16:37:44: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-13 16:37:44: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-13 16:37:44: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-13 16:37:44: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-13 16:37:44: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/chidinhdieutriphoihop/index.php~RF6e250f.TMP
+2014-04-13 16:37:44: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/index.php
+2014-04-13 16:37:44: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/chidinhkham/index.php
+2014-04-13 16:37:44: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/MFC9AED.tmp
+2014-04-13 16:37:44: Change in: D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/index.php~RF5129a71.TMP
+2014-04-13 16:37:44: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/chidinhdieutriphoihop/MFC21B5.tmp
+2014-04-13 16:37:44: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/chidinhkham/MFC455.tmp
+2014-04-13 16:37:44: Change in: D:/xampp/htdocs/giaidoan2/modules/quanlyduoc/Ds_ToaThuoc/xuatthuoc_laynuadon.php
+2014-04-13 16:37:44: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/chidinhkham/index.php~RF6e08d8.TMP
+2014-04-13 16:37:44: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/chidinhdieutriphoihop/index.php
+2014-04-13 16:37:45: Changes: 3, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-13 16:37:45: Left to Right: Copy File: 3 
+2014-04-13 16:37:45: -- Analysis Completed. Time 00:00:03, Speed: 5.338 files/s
+2014-04-13 16:37:45: == GD2: SYNC started by On File Change PostSync Re-Analyze on 'SERVERDB'
+2014-04-13 16:37:45: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-13 16:37:45: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/hanhchinh/mien_giam/index.php' -> '//192.168.1.105/giaidoan2/modules/hanhchinh/mien_giam/index.php'
+2014-04-13 16:37:45: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/lamsang/chidinhdieutriphoihop/index.php' -> '//192.168.1.105/giaidoan2/modules/lamsang/chidinhdieutriphoihop/index.php'
+2014-04-13 16:37:45: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/quanlyduoc/Ds_ToaThuoc/xuatthuoc_laynuadon.php' -> '//192.168.1.105/giaidoan2/modules/quanlyduoc/Ds_ToaThuoc/xuatthuoc_laynuadon.php'
+2014-04-13 16:37:46: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 16:37:47: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 16:37:47: Items Synced OK: 3, Errors: 0
+2014-04-13 16:37:47: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-13 16:37:47: 

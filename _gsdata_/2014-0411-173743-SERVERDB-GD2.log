@@ -1,0 +1,23 @@
+2014-04-11 17:37:43: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-11 17:37:43: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 17:37:43: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 17:37:44: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/TCD/index.php
+2014-04-11 17:37:45: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-11 17:37:45: Left to Right: Copy File: 1 
+2014-04-11 17:37:45: -- Analysis Completed. Time 00:00:02, Speed: 8.002 files/s
+2014-04-11 17:37:45: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-11 17:37:45: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 17:37:46: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/canlamsang/TCD/index.php' -> '//192.168.1.105/giaidoan2/modules/canlamsang/TCD/index.php'
+2014-04-11 17:37:46: Source file has changed between Analyze and Sync from 'type=file size=28.933 accu-t=2014-04-11 17:37:38' to 'size=28.933 time=2014-04-11 17:37:45', noted in source file state
+2014-04-11 17:37:46: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 17:37:47: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 17:37:47: Items Synced OK: 1, Errors: 0
+2014-04-11 17:37:47: == Sync Completed. Time: 00:00:02, Speed: 28,2 KB/s
+2014-04-11 17:37:47: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-11 17:37:47: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-11 17:37:47: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 17:37:47: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/TCD/index.php
+2014-04-11 17:37:47: Change in: //192.168.1.105/giaidoan2/modules/canlamsang/TCD/index.php
+2014-04-11 17:37:48: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-11 17:37:48: -- Analysis Completed. Time 00:00:03, Speed: 5.335 files/s
+2014-04-11 17:37:48: 

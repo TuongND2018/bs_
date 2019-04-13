@@ -1,0 +1,33 @@
+2014-04-15 23:28:16: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 23:28:16: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 23:28:16: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 23:28:17: Change in: D:/xampp/htdocs/giaidoan2/firefox/New folder
+2014-04-15 23:28:17: Change in: D:/xampp/htdocs/giaidoan2/firefox/plugin_firefox
+2014-04-15 23:28:18: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 23:28:18: Left to Right: Rename/Move File/Folder: 2 
+2014-04-15 23:28:18: -- Analysis Completed. Time 00:00:02, Speed: 8.050 files/s
+2014-04-15 23:28:18: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-15 23:28:18: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 23:28:18: Move Folder //192.168.1.105/giaidoan2/firefox/New folder -> //192.168.1.105/giaidoan2/firefox/plugin_firefox
+2014-04-15 23:28:19: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 23:28:20: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 23:28:20: Items Synced OK: 2, Errors: 0
+2014-04-15 23:28:20: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-15 23:28:20: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-15 23:28:20: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 23:28:20: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 23:28:20: Change in: D:/xampp/htdocs/giaidoan2/firefox/plugin_firefox/family-hospital-printer-management(8).xpi
+2014-04-15 23:28:20: Change in: D:/xampp/htdocs/giaidoan2/firefox/family-hospital-printer-management(8).xpi
+2014-04-15 23:28:20: Change in: //192.168.1.105/giaidoan2/firefox/New folder
+2014-04-15 23:28:20: Change in: //192.168.1.105/giaidoan2/firefox/plugin_firefox
+2014-04-15 23:28:21: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 23:28:21: Left to Right: Rename/Move File/Folder: 2 
+2014-04-15 23:28:21: -- Analysis Completed. Time 00:00:03, Speed: 5.366 files/s
+2014-04-15 23:28:21: == GD2: SYNC started by On File Change PostSync Re-Analyze on 'SERVERDB'
+2014-04-15 23:28:21: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 23:28:21: Move File //192.168.1.105/giaidoan2/firefox/family-hospital-printer-management(8).xpi -> //192.168.1.105/giaidoan2/firefox/plugin_firefox/family-hospital-printer-management(8).xpi
+2014-04-15 23:28:22: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 23:28:23: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 23:28:23: Items Synced OK: 2, Errors: 0
+2014-04-15 23:28:23: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-15 23:28:23: 

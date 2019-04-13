@@ -1,0 +1,24 @@
+2014-08-20 07:57:29: -- hoadon: ANALYSIS started by User on 'TAMINHKHALAP' (GoodSync 9.8.1.1)
+2014-08-20 07:57:29: gstp://serverdb.ahkhinmat.goodsync/file:///D:/xampp/htdocs/giaidoan2/modules/vienphi/hoadon [TmpDest] <-> D:\xampp\htdocs\giaidoan2\modules\vienphi\hoadon (D:/xampp/htdocs/giaidoan2/modules/vienphi/hoadon) [TmpDest], ReconnectSecs=120
+2014-08-20 07:57:29: L: State file does not exist: gstp://serverdb.ahkhinmat.goodsync/file:///D:/xampp/htdocs/giaidoan2/modules/vienphi/hoadon/_gsdata_/_file_state_v4._gs
+2014-08-20 07:57:29: L: Files: 9 (excluded ). Folders:  (excluded ). SERVERDB D: NTFS, Free: 259 MB, Total: 132 GB
+2014-08-20 07:57:29: R: State file does not exist: D:/xampp/htdocs/giaidoan2/modules/vienphi/hoadon/_gsdata_/_file_state_v4._gs
+2014-08-20 07:57:29: R: Files: 7 (excluded ). Folders:  (excluded ). D: NTFS, Free: 121 GB, Total: 166 GB
+2014-08-20 07:57:29: /HDChiTiet.php: Conflict: New files that differ
+2014-08-20 07:57:29: Analyze has finished with Conflicts. Resolve Conflicts by selecting the correct sync direction, then click Sync
+2014-08-20 07:57:29: Changes: 3, Conflicts: 1, CopyTime: , CopyState: /6, Errors: 
+2014-08-20 07:57:29: Left to Right: Copy File: 2 
+2014-08-20 07:57:29: -- Analysis Completed. Time 00:00:01, Speed: 9 files/s
+2014-08-20 07:57:29: 
+2014-08-20 07:58:27: serverdb.ahkhinmat.goodsync is on local network, trying direct connect at 192.168.1.200:33333
+2014-08-20 07:58:28: New _gsdata_ folder(s) created, so rescan all job folders for their ghosts
+2014-08-20 07:58:28: == hoadon: SYNC started by User on 'TAMINHKHALAP'
+2014-08-20 07:58:28: gstp://serverdb.ahkhinmat.goodsync/file:///D:/xampp/htdocs/giaidoan2/modules/vienphi/hoadon [TmpDest] <-> D:\xampp\htdocs\giaidoan2\modules\vienphi\hoadon (D:/xampp/htdocs/giaidoan2/modules/vienphi/hoadon) [TmpDest], ReconnectSecs=120
+2014-08-20 07:58:30: Copy New 'gstp://serverdb.ahkhinmat.goodsync/file:///D:/xampp/htdocs/giaidoan2/modules/vienphi/hoadon/data_HoaDonChiTiet.php' -> 'D:/xampp/htdocs/giaidoan2/modules/vienphi/hoadon/data_HoaDonChiTiet.php'
+2014-08-20 07:58:30: Copy New 'gstp://serverdb.ahkhinmat.goodsync/file:///D:/xampp/htdocs/giaidoan2/modules/vienphi/hoadon/data_ThongTinHoaDon.php' -> 'D:/xampp/htdocs/giaidoan2/modules/vienphi/hoadon/data_ThongTinHoaDon.php'
+2014-08-20 07:58:30: Copy Over 'gstp://serverdb.ahkhinmat.goodsync/file:///D:/xampp/htdocs/giaidoan2/modules/vienphi/hoadon/HDChiTiet.php' -> 'D:/xampp/htdocs/giaidoan2/modules/vienphi/hoadon/HDChiTiet.php' (User Action)
+2014-08-20 07:58:31: Save State File gstp://serverdb.ahkhinmat.goodsync/file:///D:/xampp/htdocs/giaidoan2/modules/vienphi/hoadon/_gsdata_/_file_state_v4._gs
+2014-08-20 07:58:31: Save State File D:/xampp/htdocs/giaidoan2/modules/vienphi/hoadon/_gsdata_/_file_state_v4._gs
+2014-08-20 07:58:31: Items Synced OK: 9, Errors: 
+2014-08-20 07:58:31: == Sync Completed. Time: 00:00:04, Speed: 4,51 KB/s
+2014-08-20 07:58:31: 

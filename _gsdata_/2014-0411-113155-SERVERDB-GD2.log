@@ -1,0 +1,31 @@
+2014-04-11 11:31:55: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-11 11:31:55: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 11:31:55: Change in: D:/xampp/htdocs/giaidoan2/modules/vienphi/thungan/controller_chitiet.php~RF439ff6a.TMP
+2014-04-11 11:31:55: Change in: D:/xampp/htdocs/giaidoan2/modules/vienphi/thungan/MFCFFDA.tmp
+2014-04-11 11:31:55: Change in: D:/xampp/htdocs/giaidoan2/modules/vienphi/thungan/controller_chitiet.php
+2014-04-11 11:31:56: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-11 11:31:56: Left to Right: Copy File: 1 
+2014-04-11 11:31:56: -- Analysis Completed. Time 00:00:01, Speed: 15K files/s
+2014-04-11 11:31:56: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-11 11:31:56: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 11:31:56: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/vienphi/thungan/controller_chitiet.php' -> '//192.168.1.105/giaidoan2/modules/vienphi/thungan/controller_chitiet.php'
+2014-04-11 11:31:57: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 11:31:58: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 11:31:58: Items Synced OK: 1, Errors: 0
+2014-04-11 11:31:58: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-11 11:31:58: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-11 11:31:58: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-11 11:31:58: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 11:31:58: Change in: D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/xetnghiem.php
+2014-04-11 11:31:58: Change in: //192.168.1.105/giaidoan2/modules/vienphi/thungan/controller_chitiet.php
+2014-04-11 11:31:59: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-11 11:31:59: Left to Right: Copy File: 1 
+2014-04-11 11:31:59: -- Analysis Completed. Time 00:00:03, Speed: 5.332 files/s
+2014-04-11 11:31:59: == GD2: SYNC started by On File Change PostSync Re-Analyze on 'SERVERDB'
+2014-04-11 11:31:59: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 11:31:59: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/xetnghiem.php' -> '//192.168.1.105/giaidoan2/modules/report/canlamsang/xetnghiem.php'
+2014-04-11 11:32:00: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 11:32:00: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 11:32:00: Items Synced OK: 1, Errors: 0
+2014-04-11 11:32:00: == Sync Completed. Time: 00:00:01, Speed: 0 bytes/s
+2014-04-11 11:32:00: 

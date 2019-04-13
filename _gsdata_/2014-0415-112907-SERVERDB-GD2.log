@@ -1,0 +1,28 @@
+2014-04-15 11:29:07: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 11:29:07: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 11:29:07: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 11:29:07: Change in: D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/xetnghiem.php
+2014-04-15 11:29:08: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/52b564849d4b577bf36c23d1ca549dd5
+2014-04-15 11:29:08: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/a54b7d1b58a6c6089c3afecdec629d72
+2014-04-15 11:29:08: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/0543aa2a490750c2b971ebeb2ba72a13
+2014-04-15 11:29:08: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/3cabd8c5e1eafb398cfc6ca74b61abb7
+2014-04-15 11:29:08: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/85396bc2169c4c93ca3e0b982bfd89ef
+2014-04-15 11:29:08: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/01fe0a56b1d91546b0d7de2c6bdbb091
+2014-04-15 11:29:08: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/d6efa8d64325aceafb1e8c769775f2de
+2014-04-15 11:29:09: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 11:29:09: Left to Right: Copy File: 1 
+2014-04-15 11:29:09: -- Analysis Completed. Time 00:00:02, Speed: 8.032 files/s
+2014-04-15 11:29:09: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-15 11:29:09: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 11:29:09: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/xetnghiem.php' -> '//192.168.1.105/giaidoan2/modules/report/canlamsang/xetnghiem.php'
+2014-04-15 11:29:10: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 11:29:10: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 11:29:10: Items Synced OK: 1, Errors: 0
+2014-04-15 11:29:10: == Sync Completed. Time: 00:00:01, Speed: 0 bytes/s
+2014-04-15 11:29:10: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-15 11:29:11: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 11:29:11: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 11:29:11: Change in: //192.168.1.105/giaidoan2/modules/report/canlamsang/xetnghiem.php
+2014-04-15 11:29:12: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 11:29:12: -- Analysis Completed. Time 00:00:03, Speed: 5.355 files/s
+2014-04-15 11:29:12: 

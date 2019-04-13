@@ -1,0 +1,22 @@
+2014-04-15 17:04:17: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 17:04:17: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 17:04:17: Change in: D:/xampp/htdocs/giaidoan2/js/custom.js
+2014-04-15 17:04:17: Change in: D:/xampp/htdocs/giaidoan2/js/MFCCF73.tmp
+2014-04-15 17:04:17: Change in: D:/xampp/htdocs/giaidoan2/js/custom.js~RF51fcf79.TMP
+2014-04-15 17:04:18: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 17:04:18: Left to Right: Copy File: 1 
+2014-04-15 17:04:18: -- Analysis Completed. Time 00:00:01, Speed: 16K files/s
+2014-04-15 17:04:18: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-15 17:04:18: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 17:04:18: Copy Over 'D:/xampp/htdocs/giaidoan2/js/custom.js' -> '//192.168.1.105/giaidoan2/js/custom.js'
+2014-04-15 17:04:19: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 17:04:20: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 17:04:20: Items Synced OK: 1, Errors: 0
+2014-04-15 17:04:20: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-15 17:04:20: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-15 17:04:20: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 17:04:20: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 17:04:20: Change in: //192.168.1.105/giaidoan2/js/custom.js
+2014-04-15 17:04:21: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 17:04:21: -- Analysis Completed. Time 00:00:03, Speed: 5.364 files/s
+2014-04-15 17:04:21: 

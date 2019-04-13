@@ -1,0 +1,21 @@
+2014-04-15 00:47:21: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 00:47:21: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 00:47:21: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/sieu_am/index.php
+2014-04-15 00:47:22: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 00:47:22: Left to Right: Copy File: 1 
+2014-04-15 00:47:22: -- Analysis Completed. Time 00:00:01, Speed: 16K files/s
+2014-04-15 00:47:22: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-15 00:47:22: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 00:47:23: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/canlamsang/sieu_am/index.php' -> '//192.168.1.105/giaidoan2/modules/canlamsang/sieu_am/index.php'
+2014-04-15 00:47:23: Source file has changed between Analyze and Sync from 'type=file size=65.536 accu-t=2014-04-15 00:47:21' to 'size=68.848 time=2014-04-15 00:47:21', noted in source file state
+2014-04-15 00:47:23: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 00:47:24: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 00:47:24: Items Synced OK: 1, Errors: 0
+2014-04-15 00:47:24: == Sync Completed. Time: 00:00:02, Speed: 67,2 KB/s
+2014-04-15 00:47:24: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-15 00:47:24: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 00:47:24: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 00:47:24: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/sieu_am/index.php
+2014-04-15 00:47:25: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 00:47:25: -- Analysis Completed. Time 00:00:03, Speed: 5.352 files/s
+2014-04-15 00:47:25: 

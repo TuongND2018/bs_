@@ -1,0 +1,48 @@
+2014-04-14 10:09:38: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-14 10:09:38: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-14 10:09:38: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 10:09:39: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/140427_1044189_4328_1.jpeg
+2014-04-14 10:09:39: Change in: D:/xampp/htdocs/giaidoan2/modules/login/index.php
+2014-04-14 10:09:39: Change in: D:/xampp/htdocs/giaidoan2/modules/login/MFCDC1D.tmp
+2014-04-14 10:09:39: Change in: D:/xampp/htdocs/giaidoan2/file_manager/files/temp/log.txt
+2014-04-14 10:09:39: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/a5669956bdde248087ba366552e8369e
+2014-04-14 10:09:39: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/140427_1044189_4328_4.jpeg
+2014-04-14 10:09:39: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/a1db182a80f163bc49102da20c83163b
+2014-04-14 10:09:39: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/b8bbecf4cb494fab8d469aae0f74cd7b
+2014-04-14 10:09:39: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/140427_1044189_4328_3.jpeg
+2014-04-14 10:09:39: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/88201a4bb506b4d4d00e6df4fefb1b90
+2014-04-14 10:09:39: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/140427_1044189_4328_2.jpeg
+2014-04-14 10:09:39: Change in: D:/xampp/htdocs/giaidoan2/modules/login/index.php~RF10dc69.TMP
+2014-04-14 10:09:40: Changes: 6, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-14 10:09:40: Left to Right: Copy File: 6 
+2014-04-14 10:09:40: -- Analysis Completed. Time 00:00:02, Speed: 8.012 files/s
+2014-04-14 10:09:40: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-14 10:09:40: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-14 10:09:40: Copy Over 'D:/xampp/htdocs/giaidoan2/file_manager/files/temp/log.txt' -> '//192.168.1.105/giaidoan2/file_manager/files/temp/log.txt'
+2014-04-14 10:09:40: Copy New 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/140427_1044189_4328_1.jpeg' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/140427_1044189_4328_1.jpeg'
+2014-04-14 10:09:41: Copy New 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/140427_1044189_4328_2.jpeg' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/140427_1044189_4328_2.jpeg'
+2014-04-14 10:09:41: Copy New 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/140427_1044189_4328_3.jpeg' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/140427_1044189_4328_3.jpeg'
+2014-04-14 10:09:41: Copy New 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/140427_1044189_4328_4.jpeg' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/140427_1044189_4328_4.jpeg'
+2014-04-14 10:09:41: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/login/index.php' -> '//192.168.1.105/giaidoan2/modules/login/index.php'
+2014-04-14 10:09:42: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 10:09:43: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 10:09:43: Items Synced OK: 6, Errors: 0
+2014-04-14 10:09:43: == Sync Completed. Time: 00:00:03, Speed: 3,56 MB/s
+2014-04-14 10:09:43: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-14 10:09:43: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-14 10:09:43: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-14 10:09:43: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/TCD/index.php
+2014-04-14 10:09:43: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/TCD/MFC47F.tmp
+2014-04-14 10:09:43: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/a5669956bdde248087ba366552e8369e
+2014-04-14 10:09:43: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/88201a4bb506b4d4d00e6df4fefb1b90
+2014-04-14 10:09:44: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-14 10:09:44: Left to Right: Copy File: 1 
+2014-04-14 10:09:44: -- Analysis Completed. Time 00:00:04, Speed: 4.006 files/s
+2014-04-14 10:09:44: == GD2: SYNC started by On File Change PostSync Re-Analyze on 'SERVERDB'
+2014-04-14 10:09:44: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-14 10:09:44: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/canlamsang/TCD/index.php' -> '//192.168.1.105/giaidoan2/modules/canlamsang/TCD/index.php'
+2014-04-14 10:09:45: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 10:09:46: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 10:09:46: Items Synced OK: 1, Errors: 0
+2014-04-14 10:09:46: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-14 10:09:46: 

@@ -1,0 +1,23 @@
+2014-04-11 10:40:49: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-11 10:40:49: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 10:40:49: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 10:40:50: Change in: D:/xampp/htdocs/giaidoan2/MFC51EB.tmp
+2014-04-11 10:40:50: Change in: D:/xampp/htdocs/giaidoan2/print_chidinh.php
+2014-04-11 10:40:50: Change in: D:/xampp/htdocs/giaidoan2/print_chidinh.php~RF4a6548d.TMP
+2014-04-11 10:40:51: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-11 10:40:51: Left to Right: Copy File: 1 
+2014-04-11 10:40:51: -- Analysis Completed. Time 00:00:02, Speed: 7.998 files/s
+2014-04-11 10:40:51: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-11 10:40:51: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 10:40:51: Copy Over 'D:/xampp/htdocs/giaidoan2/print_chidinh.php' -> '//192.168.1.105/giaidoan2/print_chidinh.php'
+2014-04-11 10:40:52: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 10:40:52: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 10:40:52: Items Synced OK: 1, Errors: 0
+2014-04-11 10:40:52: == Sync Completed. Time: 00:00:01, Speed: 0 bytes/s
+2014-04-11 10:40:52: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-11 10:40:52: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-11 10:40:52: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 10:40:53: Change in: //192.168.1.105/giaidoan2/print_chidinh.php
+2014-04-11 10:40:54: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-11 10:40:54: -- Analysis Completed. Time 00:00:03, Speed: 5.332 files/s
+2014-04-11 10:40:54: 

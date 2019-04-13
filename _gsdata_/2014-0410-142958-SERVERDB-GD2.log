@@ -1,0 +1,20 @@
+2014-04-10 14:29:58: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-10 14:29:58: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-10 14:29:58: Change in: D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/noisoi.php
+2014-04-10 14:30:00: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-10 14:30:00: Left to Right: Copy File: 1 
+2014-04-10 14:30:00: -- Analysis Completed. Time 00:00:02, Speed: 8.000 files/s
+2014-04-10 14:30:00: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-10 14:30:00: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-10 14:30:00: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/noisoi.php' -> '//192.168.1.105/giaidoan2/modules/report/canlamsang/noisoi.php'
+2014-04-10 14:30:01: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-10 14:30:01: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-10 14:30:01: Items Synced OK: 1, Errors: 0
+2014-04-10 14:30:01: == Sync Completed. Time: 00:00:01, Speed: 0 bytes/s
+2014-04-10 14:30:01: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-10 14:30:01: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-10 14:30:01: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-10 14:30:02: Change in: //192.168.1.105/giaidoan2/modules/report/canlamsang/noisoi.php
+2014-04-10 14:30:03: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-10 14:30:03: -- Analysis Completed. Time 00:00:03, Speed: 5.333 files/s
+2014-04-10 14:30:03: 

@@ -1,0 +1,33 @@
+2014-04-13 09:05:54: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-13 09:05:54: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-13 09:05:54: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 09:05:55: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/MFCF97B.tmp
+2014-04-13 09:05:55: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php
+2014-04-13 09:05:55: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php~RF2dfa46.TMP
+2014-04-13 09:05:56: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-13 09:05:56: Left to Right: Copy File: 1 
+2014-04-13 09:05:56: -- Analysis Completed. Time 00:00:02, Speed: 8.004 files/s
+2014-04-13 09:05:56: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-13 09:05:56: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-13 09:05:56: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php' -> '//192.168.1.105/giaidoan2/modules/lamsang/benh_an/index.php'
+2014-04-13 09:05:57: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 09:05:58: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 09:05:58: Items Synced OK: 1, Errors: 0
+2014-04-13 09:05:58: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-13 09:05:58: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-13 09:05:58: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-13 09:05:58: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-13 09:05:58: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/MFCF7C.tmp
+2014-04-13 09:06:00: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-13 09:06:00: Left to Right: Copy File: 1 
+2014-04-13 09:06:00: -- Analysis Completed. Time 00:00:04, Speed: 4.002 files/s
+2014-04-13 09:06:00: == GD2: SYNC started by On File Change PostSync Re-Analyze on 'SERVERDB'
+2014-04-13 09:06:00: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-13 09:06:00: Copy New 'D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/MFCF7C.tmp' -> '//192.168.1.105/giaidoan2/modules/lamsang/benh_an/MFCF7C.tmp'
+- ERROR: Error copying file: getting file info before copy: cannot get attrs: The system cannot find the file specified.  (error 2)
+2014-04-13 09:06:01: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 09:06:01: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-13 09:06:01: Sync finished with 1 errors. Click Errors button to see sync errors
+2014-04-13 09:06:01: Items Synced OK: 0, Errors: 1
+2014-04-13 09:06:01: == Sync Completed. Time: 00:00:01, Speed: 0 bytes/s
+2014-04-13 09:06:01: 

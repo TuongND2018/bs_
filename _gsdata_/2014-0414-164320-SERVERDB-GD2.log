@@ -1,0 +1,16 @@
+2014-04-14 16:43:20: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-14 16:43:20: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-14 16:43:20: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 16:43:21: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/sieu_am_4d/index.php
+2014-04-14 16:43:21: Change in: D:/xampp/htdocs/giaidoan2/modules/canlamsang/sieu_am_4d/MFC5540.tmp
+2014-04-14 16:43:22: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-14 16:43:22: Left to Right: Copy File: 1 
+2014-04-14 16:43:22: -- Analysis Completed. Time 00:00:02, Speed: 8.023 files/s
+2014-04-14 16:43:22: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-14 16:43:22: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-14 16:43:22: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/canlamsang/sieu_am_4d/index.php' -> '//192.168.1.105/giaidoan2/modules/canlamsang/sieu_am_4d/index.php'
+2014-04-14 16:43:23: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 16:43:24: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-14 16:43:24: Items Synced OK: 1, Errors: 0
+2014-04-14 16:43:24: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-14 16:43:24: 

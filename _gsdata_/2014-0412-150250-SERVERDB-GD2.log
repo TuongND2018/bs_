@@ -1,0 +1,37 @@
+2014-04-12 15:02:50: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-12 15:02:50: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 15:02:50: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/~WRL0001.tmp
+2014-04-12 15:02:50: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/~WRD0000.tmp
+2014-04-12 15:02:50: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/T D CHIEN-114279-2410-131230-0934.Doc
+2014-04-12 15:02:53: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-12 15:02:53: Left to Right: Copy File: 1 
+2014-04-12 15:02:53: -- Analysis Completed. Time 00:00:03, Speed: 5.335 files/s
+2014-04-12 15:02:53: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-12 15:02:53: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 15:02:53: Copy Over 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/T D CHIEN-114279-2410-131230-0934.Doc' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/T D CHIEN-114279-2410-131230-0934.Doc'
+2014-04-12 15:02:54: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 15:02:55: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 15:02:55: Items Synced OK: 1, Errors: 0
+2014-04-12 15:02:55: == Sync Completed. Time: 00:00:02, Speed: 0 bytes/s
+2014-04-12 15:02:55: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-12 15:02:55: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-12 15:02:55: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 15:02:55: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php~RF1ae546e.TMP
+2014-04-12 15:02:55: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/~WRD4087.tmp
+2014-04-12 15:02:55: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php
+2014-04-12 15:02:55: Change in: D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/MFC54B3.tmp
+2014-04-12 15:02:55: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/chinh1.doc
+2014-04-12 15:02:55: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/~$chinh1.doc
+2014-04-12 15:02:55: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/T D CHIEN-114279-2410-131230-0934.Doc
+2014-04-12 15:02:57: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-12 15:02:57: Left to Right: Copy File: 2 
+2014-04-12 15:02:57: -- Analysis Completed. Time 00:00:04, Speed: 4.001 files/s
+2014-04-12 15:02:57: == GD2: SYNC started by On File Change PostSync Re-Analyze on 'SERVERDB'
+2014-04-12 15:02:57: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 15:02:57: Copy New 'D:/xampp/htdocs/giaidoan2/file_manager/php/tmp_images/chinh1.doc' -> '//192.168.1.105/giaidoan2/file_manager/php/tmp_images/chinh1.doc'
+2014-04-12 15:02:57: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/lamsang/benh_an/index.php' -> '//192.168.1.105/giaidoan2/modules/lamsang/benh_an/index.php'
+2014-04-12 15:02:58: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 15:02:58: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 15:02:58: Items Synced OK: 2, Errors: 0
+2014-04-12 15:02:58: == Sync Completed. Time: 00:00:01, Speed: 0 bytes/s
+2014-04-12 15:02:58: 

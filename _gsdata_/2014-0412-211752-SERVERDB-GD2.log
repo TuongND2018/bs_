@@ -1,0 +1,25 @@
+2014-04-12 21:17:52: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-12 21:17:52: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 21:17:52: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/MFCF007.tmp
+2014-04-12 21:17:52: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/connector.php
+2014-04-12 21:17:52: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/connector.php~RFc13ee43.TMP
+2014-04-12 21:17:53: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-12 21:17:53: Left to Right: Copy File: 1 
+2014-04-12 21:17:53: -- Analysis Completed. Time 00:00:01, Speed: 16K files/s
+2014-04-12 21:17:53: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-12 21:17:53: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 21:17:54: Copy Over 'D:/xampp/htdocs/giaidoan2/file_manager/php/connector.php' -> '//192.168.1.105/giaidoan2/file_manager/php/connector.php'
+2014-04-12 21:17:54: Source file has changed between Analyze and Sync from 'type=file size=22.432 accu-t=2014-04-12 21:17:49' to 'size=22.430 time=2014-04-12 21:17:53', noted in source file state
+2014-04-12 21:17:54: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 21:17:55: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-12 21:17:55: Items Synced OK: 1, Errors: 0
+2014-04-12 21:17:55: == Sync Completed. Time: 00:00:02, Speed: 21,9 KB/s
+2014-04-12 21:17:55: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-12 21:17:55: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-12 21:17:55: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-12 21:17:55: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/connector.php~RFc13ff15.TMP
+2014-04-12 21:17:55: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/connector.php
+2014-04-12 21:17:55: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/MFCDA.tmp
+2014-04-12 21:17:56: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-12 21:17:56: -- Analysis Completed. Time 00:00:03, Speed: 5.336 files/s
+2014-04-12 21:17:56: 

@@ -1,0 +1,22 @@
+2014-04-11 09:48:44: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-11 09:48:44: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 09:48:44: Change in: D:/xampp/htdocs/giaidoan2/modules/images_control/images_edit/index.php
+2014-04-11 09:48:44: Change in: D:/xampp/htdocs/giaidoan2/modules/images_control/images_edit/index.php~RF476aa97.TMP
+2014-04-11 09:48:44: Change in: D:/xampp/htdocs/giaidoan2/modules/images_control/images_edit/MFCAA0E.tmp
+2014-04-11 09:48:46: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-11 09:48:46: Left to Right: Copy File: 1 
+2014-04-11 09:48:46: -- Analysis Completed. Time 00:00:02, Speed: 7.996 files/s
+2014-04-11 09:48:46: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-11 09:48:46: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 09:48:48: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/images_control/images_edit/index.php' -> '//192.168.1.105/giaidoan2/modules/images_control/images_edit/index.php'
+2014-04-11 09:48:49: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 09:48:50: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-11 09:48:50: Items Synced OK: 1, Errors: 0
+2014-04-11 09:48:50: == Sync Completed. Time: 00:00:04, Speed: 7,41 KB/s
+2014-04-11 09:48:50: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-11 09:48:50: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-11 09:48:50: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-11 09:48:50: Change in: //192.168.1.105/giaidoan2/modules/images_control/images_edit/index.php
+2014-04-11 09:48:52: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-11 09:48:52: -- Analysis Completed. Time 00:00:06, Speed: 2.665 files/s
+2014-04-11 09:48:52: 

@@ -1,0 +1,30 @@
+2014-04-15 14:38:01: -- GD2: ANALYSIS started by On File Change 1st Full Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 14:38:01: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 14:38:03: L: Files: 14.407 (excluded 86). Folders: 1.576 (excluded 2). D: NTFS, Free: 82,0 GB, Total: 132 GB
+2014-04-15 14:38:47: R: Files: 14.407 (excluded 80). Folders: 1.576 (excluded 2). //192.168.1.105/giaidoan2 //192.168.1.105/giaidoan2 NTFS, Free: 95,0 GB, Total: 368 GB
+2014-04-15 14:38:47: Changes: 1, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 14:38:47: Left to Right: Copy File: 1 
+2014-04-15 14:38:47: -- Analysis Completed. Time 00:00:46, Speed: 349 files/s
+2014-04-15 14:38:48: == GD2: SYNC started by On File Change 1st Full Analyze on 'SERVERDB'
+2014-04-15 14:38:48: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 14:38:48: Copy Over 'D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/xray.php' -> '//192.168.1.105/giaidoan2/modules/report/canlamsang/xray.php'
+2014-04-15 14:38:48: Source file has changed between Analyze and Sync from 'type=file size=7.306 accu-t=2014-04-15 14:37:52' to 'size=7.325 time=2014-04-15 14:38:36', noted in source file state
+2014-04-15 14:38:50: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 14:38:51: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 14:38:51: Items Synced OK: 1, Errors: 0
+2014-04-15 14:38:51: == Sync Completed. Time: 00:00:03, Speed: 0 bytes/s
+2014-04-15 14:38:51: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-15 14:38:51: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 14:38:51: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 14:38:51: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/07ff4d32ae38d62c347096d64907ad18
+2014-04-15 14:38:51: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/08c241970c98463954563c69b8e66bcf
+2014-04-15 14:38:51: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/409ac338532006535fd377d6b360bc25
+2014-04-15 14:38:51: Change in: D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/MFC31E9.tmp
+2014-04-15 14:38:51: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/4b0bcd2cd35b0cf0b741c4fcb316b68e
+2014-04-15 14:38:51: Change in: D:/xampp/htdocs/giaidoan2/file_manager/php/tmp/bd9b76e85aad65946b201b79774e7309
+2014-04-15 14:38:51: Change in: D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/xray.php~RF17e321e.TMP
+2014-04-15 14:38:51: Change in: D:/xampp/htdocs/giaidoan2/modules/report/canlamsang/xray.php
+2014-04-15 14:38:51: Change in: //192.168.1.105/giaidoan2/modules/report/canlamsang/xray.php
+2014-04-15 14:38:52: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 14:38:52: -- Analysis Completed. Time 00:00:04, Speed: 4.017 files/s
+2014-04-15 14:38:52: 

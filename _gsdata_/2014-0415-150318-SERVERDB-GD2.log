@@ -1,0 +1,28 @@
+2014-04-15 15:03:18: -- GD2: ANALYSIS started by On File Change Incremental on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 15:03:18: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 15:03:18: L: State File has changed, so re-read it: D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 15:03:18: Change in: D:/xampp/htdocs/giaidoan2/modules/report/lamsang/khamsuckhoe_mat2 - Copy.php
+2014-04-15 15:03:18: Change in: D:/xampp/htdocs/giaidoan2/modules/report/lamsang/khamsuckhoe_mat2_2.php
+2014-04-15 15:03:19: Changes: 2, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 15:03:19: Left to Right: Rename/Move File/Folder: 2 
+2014-04-15 15:03:19: -- Analysis Completed. Time 00:00:02, Speed: 8.041 files/s
+2014-04-15 15:03:19: == GD2: SYNC started by On File Change Incremental on 'SERVERDB'
+2014-04-15 15:03:19: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 15:03:20: Move File //192.168.1.105/giaidoan2/modules/report/lamsang/khamsuckhoe_mat2 - Copy.php -> //192.168.1.105/giaidoan2/modules/report/lamsang/khamsuckhoe_mat2_2.php
+2014-04-15 15:03:20: Save State File D:/xampp/htdocs/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 15:03:21: Save State File //192.168.1.105/giaidoan2/_gsdata_/_file_state_v4._gs
+2014-04-15 15:03:21: Items Synced OK: 2, Errors: 0
+2014-04-15 15:03:21: == Sync Completed. Time: 00:00:02, Speed: 512 bytes/s
+2014-04-15 15:03:21: --- Do one more Analyze to get latest changes of this Sync ---
+2014-04-15 15:03:21: -- GD2: ANALYSIS started by On File Change PostSync Re-Analyze on 'SERVERDB' (GoodSync 9.8.1.1)
+2014-04-15 15:03:21: D:\xampp\htdocs\giaidoan2 (D:/xampp/htdocs/giaidoan2) [TmpDest] =PropDels=> \\192.168.1.105\giaidoan2 (//192.168.1.105/giaidoan2) [TmpDest] [time-translate], NoWaitForLocks, UberUnlocked, ReconnectSecs=120, CopyCreateTime
+2014-04-15 15:03:22: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/52b564849d4b577bf36c23d1ca549dd5
+2014-04-15 15:03:22: Change in: //192.168.1.105/giaidoan2/modules/report/lamsang/khamsuckhoe_mat2_2.php
+2014-04-15 15:03:22: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/66b46e323be0e155fc84a290c6538357
+2014-04-15 15:03:22: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/9eda7f681df455cc0b4be01683a6c45d
+2014-04-15 15:03:22: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/3cabd8c5e1eafb398cfc6ca74b61abb7
+2014-04-15 15:03:22: Change in: //192.168.1.105/giaidoan2/file_manager/php/tmp/4671d86af952d68182b75a48091786a3
+2014-04-15 15:03:22: Change in: //192.168.1.105/giaidoan2/modules/report/lamsang/khamsuckhoe_mat2 - Copy.php
+2014-04-15 15:03:22: Changes: 0, Conflicts: 0, CopyTime: 0, CopyState: 0/0, Errors: 0
+2014-04-15 15:03:22: -- Analysis Completed. Time 00:00:03, Speed: 5.360 files/s
+2014-04-15 15:03:22: 
